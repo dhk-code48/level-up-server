@@ -1,0 +1,4734 @@
+{
+  "General": [
+    {
+      "subjectName": "General Knowledge",
+      "noOfQuestion": 52,
+      "noOfChapters": 5,
+      "chapters": {
+        "Geography": {
+          "chapterName": "Geography",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Geography",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Nevada" },
+                { "img": "", "label": "Arizona" },
+                { "img": "}", "label": "New Mexico" },
+                { "img": "", "label": "Utah" }
+              ],
+              "points": "5",
+              "question": "Area 51 is located in which US state?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Geography",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": " ६५% " },
+                { "img": "", "label": "६६%" },
+                { "img": "}", "label": " ६७%" },
+                { "img": "", "label": "६८% " }
+              ],
+              "points": "2",
+              "question": "नेपालको कति प्रतिशत भू-भाग पहाडी प्रदेशले ओगटेको छ ? ",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Geography",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "प्रदेश नं १ " },
+                { "img": "", "label": " प्रदेश नं २" },
+                { "img": "}", "label": "प्रदेश नं ३ " },
+                { "img": "", "label": " प्रदेश नं ४" }
+              ],
+              "points": "4",
+              "question": " जनसंख्याको आधारमा ठुलो प्रदेश कुन हो ? ",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Baglung" },
+                { "img": "", "label": "Dharan" },
+                { "img": "}", "label": "Nuwakot" },
+                { "img": "", "label": "Parbat" }
+              ],
+              "points": "4",
+              "question": " In which district is Fungfung waterfall?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Geography",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "4" },
+                { "img": "", "label": "5" },
+                { "img": "}", "label": "6" },
+                { "img": "", "label": "7" }
+              ],
+              "points": "4",
+              "question": "How many colors are used in the South African flag?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Geography",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "5" },
+                { "img": "", "label": "6" },
+                { "img": "}", "label": "7" },
+                { "img": "", "label": "8" }
+              ],
+              "points": "4",
+              "question": "How many large islands make up Hawaii?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Geography",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "California" },
+                { "img": "", "label": "Ohio" },
+                { "img": "}", "label": "New Jersey" },
+                { "img": "", "label": "New York" }
+              ],
+              "points": "4",
+              "question": "In which U.S. state is Niagara Falls located?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Geography",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Asia" },
+                { "img": "", "label": "Africa" },
+                { "img": "}", "label": "Antartica" },
+                { "img": "", "label": "South America" }
+              ],
+              "points": "4",
+              "question": "Where is the world’s largest desert located?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Geography",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Canada" },
+                { "img": "", "label": "Mexico" },
+                { "img": "}", "label": "Australia" },
+                { "img": "", "label": "Chile" }
+              ],
+              "points": "4",
+              "question": "Which country has the longest coastline in the world?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Saudi'" },
+                { "img": "", "label": "Qatar" },
+                { "img": "}", "label": "France" },
+                { "img": "", "label": "Spain" }
+              ],
+              "points": "2",
+              "question": "Where Eiffel tower located",
+              "questionImg": ""
+            }
+          ]
+        },
+        "General": {
+          "chapterName": "General",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "1967" },
+                { "img": "", "label": "1968" },
+                { "img": "}", "label": "1958" },
+                { "img": "", "label": "1922" }
+              ],
+              "points": "5",
+              "question": "First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted ins",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                {
+                  "img": "",
+                  "label": "the infrared light kills bacteria in the body"
+                },
+                { "img": "", "label": "resistance power increases" },
+                {
+                  "img": "}",
+                  "label": "the pigment cells in the skin get stimulated and produce a healthy tan"
+                },
+                {
+                  "img": "",
+                  "label": "the ultraviolet rays convert skin oil into Vitamin D"
+                }
+              ],
+              "points": "4",
+              "question": "Exposure to sunlight helps a person improve his health because",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "USA" },
+                { "img": "", "label": "Fiji" },
+                { "img": "}", "label": "India" },
+                { "img": "", "label": "UK" }
+              ],
+              "points": "5",
+              "question": "Golf player Vijay Singh belongs to which country?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "May 8" },
+                { "img": "", "label": "May 18" },
+                { "img": "}", "label": "June 8" },
+                { "img": "", "label": "June 18" }
+              ],
+              "points": "4",
+              "question": "Each year World Red Cross and Red Crescent Day is celebrated on",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Taoism" },
+                { "img": "", "label": "Judaism" },
+                { "img": "}", "label": "Zoroastrianism (Parsi Religion)" },
+                { "img": "", "label": "Shintoism" }
+              ],
+              "points": "5",
+              "question": "Fire temple is the place of worship of which of the following religion?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Earthquakes" },
+                { "img": "", "label": "Rainfall" },
+                { "img": "}", "label": "Ocean depth" },
+                { "img": "", "label": "Sound intensity" }
+              ],
+              "points": "5",
+              "question": "Fathometer is used to measure",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Kathmandu" },
+                { "img": "", "label": "Bhaktapur" },
+                { "img": "}", "label": "Magdi" },
+                { "img": "", "label": "Mustang" }
+              ],
+              "points": "4",
+              "question": "Which is the first WiFi-free district of Nepal?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Visible light" },
+                { "img": "", "label": "Infrared radiation" },
+                { "img": "}", "label": "X-rays and gamma rays" },
+                { "img": "", "label": "Ultraviolet radiation" }
+              ],
+              "points": "4",
+              "question": "The ozone layer restricts",
+              "questionImg": ""
+            },
+
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Zeus" },
+                { "img": "", "label": "Hestia" },
+                { "img": "}", "label": "Athens" },
+                { "img": "", "label": "Apollo" }
+              ],
+              "points": "4",
+              "question": "Who was the Ancient Greek God of the Sun?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "School" },
+                { "img": "", "label": "Flock" },
+                { "img": "}", "label": "Passel" },
+                { "img": "", "label": "Murder" }
+              ],
+              "points": "5",
+              "question": "What is a group of crows called?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "History": {
+          "chapterName": "History",
+          "numberOfQuestions": 11,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Labour Party" },
+                { "img": "", "label": "Nazi Party" },
+                { "img": "}", "label": "Ku-Klux-Klan" },
+                { "img": "", "label": "Democratic Party" }
+              ],
+              "points": "2",
+              "question": "Hitler party which came into power in 1933 is known as",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "1940" },
+                { "img": "", "label": "1941" },
+                { "img": "}", "label": "1942" },
+                { "img": "", "label": "1943" }
+              ],
+              "points": "4",
+              "question": "During World War II, when did Germany attack France?",
+              "questionImg": ""
+            },
+
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "B.S. 2063 Bhadra 18" },
+                { "img": "", "label": "B.S. 2063 Jeth 21" },
+                { "img": "}", "label": "B.S. 2061 Asaar 12" },
+                { "img": "", "label": "B.S. 2063 Jeth 29" }
+              ],
+              "points": "5",
+              "question": " When was the Untouchable-free Nation Announced to Nepal?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Seto baagh" },
+                { "img": "", "label": "Maitighar" },
+                { "img": "}", "label": "Badal Pari" },
+                { "img": "", "label": "Hami Teen Bhai" }
+              ],
+              "points": "5",
+              "question": "Which is the Nepalese movie kept on the first Internet?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                {
+                  "img": "",
+                  "label": "Clement Attlee, Prime Minister of the United Kingdom (1945–1951)"
+                },
+                {
+                  "img": "",
+                  "label": "David Ben-Gurion, Prime Minister of Israel (1948–1954; 1955–1963)"
+                },
+                { "img": "}", "label": "Karl Marx" },
+                {
+                  "img": "",
+                  "label": "Michelle Bachelet, President of Chile (2006–2010; 2014–2018)"
+                }
+              ],
+              "points": "5",
+              "question": "Who is also known as the founder of scientific socialism?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "1968" },
+                { "img": "", "label": "1929" },
+                { "img": "}", "label": "1901" },
+                { "img": "", "label": "1965" }
+              ],
+              "points": "5",
+              "question": "Oscar Awards were instituted in",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "France" },
+                { "img": "", "label": "Athens" },
+                { "img": "}", "label": "Greece" },
+                { "img": "", "label": "China" }
+              ],
+              "points": "4",
+              "question": "Socrates was the wisest man of the ancient world and developed the method of enquiry and instruction, belonged to",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "1139 AD" },
+                { "img": "", "label": "1163 AD" },
+                { "img": "}", "label": "215 BC" },
+                { "img": "", "label": "55 BC" }
+              ],
+              "points": "4",
+              "question": "Oxford university was founded in",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Yalambar" },
+                { "img": "", "label": "Stungko" },
+                { "img": "}", "label": "Jitedasti" },
+                { "img": "", "label": "Phukong" }
+              ],
+              "points": "5",
+              "question": "During which Kirati ruler's rule did 'Gautam Buddha' visited Nepal?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Dhyak" },
+                { "img": "", "label": "1 Anna" },
+                { "img": "}", "label": "Manaka" },
+                { "img": "", "label": "One Rupees" }
+              ],
+              "points": "4",
+              "question": "Which is the oldest known 'coin' of Nepal?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Prithivi Narayan Shah" },
+                { "img": "", "label": "Gyanedra Shah" },
+                { "img": "}", "label": "Mahendra Shah" },
+                { "img": "", "label": "Birendra Shah" }
+              ],
+              "points": "4",
+              "question": "Which King has been crowned king twice in Nepal?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Sports": {
+          "chapterName": "Sports",
+          "numberOfQuestions": 11,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "26 m x 14 m" },
+                { "img": "", "label": "28 m x 15 m" },
+                { "img": "}", "label": "27 m x 16 m" },
+                { "img": "", "label": "28 m x 16 m" }
+              ],
+              "points": "5",
+              "question": "For the Olympics and World Tournaments, the dimensions of basketball court are",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "1958 in Tokyo" },
+                { "img": "", "label": "1962 in Jakarta" },
+                { "img": "}", "label": "1966 in Bangkok" },
+                { "img": "", "label": "1970 in Bangkok" }
+              ],
+              "points": "5",
+              "question": "Hockey was introduced in the Asian Games in",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                {
+                  "img": "",
+                  "label": "International Civil Aviation Organization"
+                },
+                {
+                  "img": "",
+                  "label": "Indian Corporation of Agriculture Organization"
+                },
+                {
+                  "img": "}",
+                  "label": "Institute of Company of Accounts Organization"
+                },
+                { "img": "", "label": "None of the above" }
+              ],
+              "points": "4",
+              "question": "ICAO stands for",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "401" },
+                { "img": "", "label": "302" },
+                { "img": "}", "label": "336" },
+                { "img": "", "label": "469" }
+              ],
+              "points": "5",
+              "question": " How many dimples does an average golf ball have?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Swimming" },
+                { "img": "", "label": "Marathon" },
+                { "img": "}", "label": "Bicycle" },
+                { "img": "", "label": "Supercars" }
+              ],
+              "points": "4",
+              "question": "What type of race is the Tour de France?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Philadelphia Warriors" },
+                { "img": "", "label": "Chicago Stags" },
+                { "img": "}", "label": "Boston Celtics" },
+                { "img": "", "label": "The New York Knicks" }
+              ],
+              "points": "5",
+              "question": "What team won the very first NBA game in 1946?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Miami Heat" },
+                { "img": "", "label": "Chicago Bulls" },
+                { "img": "}", "label": "Los Angeles Lakers" },
+                { "img": "", "label": "Golden Stat Warriors" }
+              ],
+              "points": "5",
+              "question": "What team owns the longest winning streak in NBA history?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Arsenal" },
+                { "img": "", "label": "Man City" },
+                { "img": "}", "label": "Nottingham Forest " },
+                { "img": "", "label": "Chelsea F.C." }
+              ],
+              "points": "4",
+              "question": "Liverpool have won six Champions Leagues and Manchester United have won three, but who are England's third most successful team in the competition with two titles?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Arsenal" },
+                { "img": "", "label": "Liverpool" },
+                { "img": "}", "label": "Man United" },
+                { "img": "", "label": "Chelsea F.C." }
+              ],
+              "points": "4",
+              "question": "Which team won the first Premier League title?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Christiano Ronaldo" },
+                { "img": "", "label": "Neymar Jr." },
+                { "img": "}", "label": "Conor McGregor" },
+                { "img": "", "label": "LeBron James" }
+              ],
+              "points": "4",
+              "question": "Who is the world’s highest-paid athlete in 2021?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Cristiano Ronaldo" },
+                { "img": "", "label": "Lionel Messi" },
+                { "img": "}", "label": "Mbappe" },
+                { "img": "", "label": "Robert Lewandowski" }
+              ],
+              "points": "2",
+              "question": "In the FIFA World Cup 2022, who won Golden Ball for the best player?",
+              "questionImg": ""
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "Course": [
+    {
+      "subjectName": "English",
+      "noOfChapters": 3,
+      "noOfQuestion": 67,
+      "chapters": {
+        "Articles": {
+          "chapterName": "Articles",
+          "numberOfQuestions": 25,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "A" },
+                { "img": "", "label": "An" },
+                { "img": "}", "label": "The" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "____books he bought were cheap.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "A" },
+                { "img": "", "label": "An" },
+                { "img": "}", "label": "The" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "He studies in____uniersity in the city.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "A" },
+                { "img": "", "label": "An" },
+                { "img": "}", "label": "The" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "____eagle is the national bird of America.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "A,the" },
+                { "img": "", "label": "The,a" },
+                { "img": "}", "label": "The,X" },
+                { "img": "", "label": "The,the" }
+              ],
+              "points": "4",
+              "question": "____university of Kathmandu is smaller__than Tribhuvan University.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "He sold___book.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___book he borrowed from the library has to be returned within a week.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___books are expensie in the market.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "She sold___cow.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___cow is the national animal of Nepal.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___cows give milk.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___cows he sold are hybrid.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___cows from Australia are known for their domestic value.",
+              "questionImg": ""
+            },
+
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "He made___one-minute call to India.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___One-minute call that he made cost him rupees forty five.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "____one minute calls are exppensive.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___university where my sister studies is said to be the best in the counttry.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "He drank tea in___cup and saucer.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___cup and saucer he drank tea in was Impoted from England.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "",
+              "question": "Tea is served in___cups and saucers.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "She bought___pair of shoes.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "___Pairs of shoes she bought were expensive.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "He goes to___Little Angel's School.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "We study at___School of Performing Arts.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "2",
+              "question": "He goes to___St.Andreew's College.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Articles",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "an" },
+                { "img": "}", "label": "the" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "4",
+              "question": "Life in the city has changed a lot during___past three years.",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Singular and Plural": {
+          "chapterName": "Singular and Plural",
+          "numberOfQuestions": 12,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "William and Michaels'" },
+                { "img": "", "label": "Williams' and Michaels''" },
+                { "img": "}", "label": "William's and Michael's" },
+                { "img": "", "label": "William and Michael's" }
+              ],
+              "points": "4",
+              "question": "___father is an engineer.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "a new pair" },
+                { "img": "", "label": "a pair of" },
+                { "img": "", "label": "a new one" },
+                { "img": "", "label": "a new ones" }
+              ],
+              "points": "4",
+              "question": "My trousers are old.I have to buy___",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "is used" },
+                { "img": "", "label": "are used" },
+                { "img": "", "label": "uses" },
+                { "img": "", "label": "are using" }
+              ],
+              "points": "2",
+              "question": "Most of the wood he ___ to make furniture.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "has been done" },
+                { "img": "", "label": "have done" },
+                { "img": "}", "label": "have been done" },
+                { "img": "", "label": "has done" }
+              ],
+              "points": "2",
+              "question": "All that can be done___.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "is" },
+                { "img": "", "label": "are" },
+                { "img": "}", "label": "show" },
+                { "img": "", "label": "shows" }
+              ],
+              "points": "2",
+              "question": "All of them___interested in photography.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "adivces--are" },
+                { "img": "", "label": "adivce--are" },
+                { "img": "}", "label": "adivce--is" },
+                { "img": "", "label": "adivces--is" }
+              ],
+              "points": "2",
+              "question": "All the___given by Mr.Smith___quite helpful to us all.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Mary's mother" },
+                { "img": "", "label": "Mary's mother's" },
+                { "img": "}", "label": "Marys' mother" },
+                { "img": "", "label": "Mary mothers'" }
+              ],
+              "points": "4",
+              "question": "Jane is a close friend of___.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "clothings" },
+                { "img": "", "label": "clothes" },
+                { "img": "}", "label": "dressing" },
+                { "img": "", "label": "cloth" }
+              ],
+              "points": "4",
+              "question": "My young sister wears modern___.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "sheepes" },
+                { "img": "", "label": "sheeps" },
+                { "img": "}", "label": "sheep" },
+                { "img": "", "label": "shoop" }
+              ],
+              "points": "4",
+              "question": "Nine___are eating grass at the foot of the hill.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "geeses" },
+                { "img": "", "label": "gooses" },
+                { "img": "}", "label": "goose" },
+                { "img": "", "label": "geese" }
+              ],
+              "points": "4",
+              "question": "The farmers has many___on the farm.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "rooms numbers" },
+                { "img": "", "label": "room's numbers" },
+                { "img": "}", "label": "room number" },
+                { "img": "", "label": "room numbers" }
+              ],
+              "points": "4",
+              "question": "We forgot both the___.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Singular and Plural",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "three dozen" },
+                { "img": "", "label": "three dozens" },
+                { "img": "}", "label": "thid dozens" },
+                { "img": "", "label": "nothing" }
+              ],
+              "points": "4",
+              "question": "She bought___eggs at the supermarket.",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Tense Use": {
+          "chapterName": "Tense Use",
+          "numberOfQuestions": 6,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Tense Use",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "fell...riding" },
+                { "img": "", "label": "fallen...was riding" },
+                { "img": "}", "label": "was faliing...rode" },
+                { "img": "", "label": "fell...was riding" }
+              ],
+              "points": "2",
+              "question": "My younger brother___to the ground and hurt himself while he___his bike.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Tense Use",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "stand" },
+                { "img": "", "label": "to stand" },
+                { "img": "}", "label": "stands" },
+                { "img": "", "label": "to stands" }
+              ],
+              "points": "2",
+              "question": "The museum he paid a visit___at the end of the street.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Tense Use",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "having meet" },
+                { "img": "", "label": "have met" },
+                { "img": "}", "label": "to have met" },
+                { "img": "", "label": "had met" }
+              ],
+              "points": "2",
+              "question": "I don't think you___John",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Tense Use",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "had seen" },
+                { "img": "", "label": "saw" },
+                { "img": "}", "label": "had been seeing" },
+                { "img": "", "label": "see" }
+              ],
+              "points": "2",
+              "question": "Because I___it twice.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Tense Use",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "watched" },
+                { "img": "", "label": "was watching" },
+                { "img": "}", "label": "will watch" },
+                { "img": "", "label": "had watched" }
+              ],
+              "points": "2",
+              "question": "I___TV when the light went out.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Tense Use",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "would" },
+                { "img": "", "label": "do" },
+                { "img": "}", "label": "did" },
+                { "img": "", "label": "should" }
+              ],
+              "points": "4",
+              "question": "Oh,really?But how___I know?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Voice": {
+          "chapterName": "Voice",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "What was been done by him?" },
+                { "img": "", "label": "What he did?" },
+                { "img": "}", "label": "What is being done by him?" },
+                { "img": "", "label": "What was done by him?" }
+              ],
+              "points": "4",
+              "question": "What did he go?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "It be completed quickly." },
+                { "img": "", "label": "Let it be quickly completed." },
+                { "img": "}", "label": "It was being completed quickly." },
+                { "img": "", "label": "Let it be completed quickly." }
+              ],
+              "points": "4",
+              "question": "Complete it quickly.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Have youi been invited in her?" },
+                { "img": "", "label": "Have you been invited by her?" },
+                { "img": "}", "label": "Has she been invited by you?" },
+                { "img": "", "label": "Has you was invited by her? by her?" }
+              ],
+              "points": "4",
+              "question": "Has she invited you?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "What was you complled to do it by?" },
+                { "img": "", "label": "What are you compelled to do it by?" },
+                {
+                  "img": "}",
+                  "label": "What is you being compelled to do it by?"
+                },
+                {
+                  "img": "",
+                  "label": "What has been you compelled to do it by?"
+                }
+              ],
+              "points": "4",
+              "question": "They don't offer us the job.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "We aren't offered the job." },
+                { "img": "", "label": "We don't get offered the job." },
+                { "img": "}", "label": "We weren't offered the job by them." },
+                { "img": "", "label": "both a&b." }
+              ],
+              "points": "4",
+              "question": "They don't offer us the job.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "You are supposed to help them." },
+                { "img": "", "label": "Let they be helped." },
+                { "img": "}", "label": "They should be helped." },
+                { "img": "", "label": "They are helped." }
+              ],
+              "points": "4",
+              "question": "Help them.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Our dog was run over by a car." },
+                { "img": "", "label": "Our day goes run over by a " },
+                { "img": "}", "label": "Our dog is run over by a car." },
+                { "img": "", "label": "Both a and b" }
+              ],
+              "points": "4",
+              "question": "A car ran over our dog.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "was writing" },
+                { "img": "", "label": "was written" },
+                { "img": "}", "label": "had been written" },
+                { "img": "", "label": "wrote" }
+              ],
+              "points": "4",
+              "question": "The book___last year.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "badly beating" },
+                { "img": "", "label": "badly beaten." },
+                { "img": "}", "label": "beating badly." },
+                { "img": "", "label": "had been beaten badly." }
+              ],
+              "points": "4",
+              "question": "They are___.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Voice",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "arrived." },
+                { "img": "", "label": "was arrived" },
+                { "img": "}", "label": "is arrived" },
+                { "img": "", "label": "None" }
+              ],
+              "points": "4",
+              "question": "The letter___yesterday.",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Prepositition": {
+          "chapterName": "Prepositition",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "on" },
+                { "img": "", "label": "by" },
+                { "img": "}", "label": "from" },
+                { "img": "", "label": "in" }
+              ],
+              "points": "2",
+              "question": "The entire statue on display is cast__gold",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "in" },
+                { "img": "", "label": "at" },
+                { "img": "}", "label": "on" },
+                { "img": "", "label": "with" }
+              ],
+              "points": "2",
+              "question": "She writes___a pen.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "in" },
+                { "img": "", "label": "with" },
+                { "img": "}", "label": "by" },
+                { "img": "", "label": "on" }
+              ],
+              "points": "4",
+              "question": "He writes__ink.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "in,at" },
+                { "img": "", "label": "in,in" },
+                { "img": "}", "label": "in,of" },
+                { "img": "", "label": "of,in" }
+              ],
+              "points": "4",
+              "question": "The sun rises___the east and sets___the west.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "at" },
+                { "img": "", "label": "in" },
+                { "img": "}", "label": "by" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "4",
+              "question": "Go___home early.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "at" },
+                { "img": "", "label": "in" },
+                { "img": "}", "label": "for" },
+                { "img": "", "label": "none" }
+              ],
+              "points": "4",
+              "question": "My mother is___home.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "at" },
+                { "img": "", "label": "in" },
+                { "img": "}", "label": "on" },
+                { "img": "", "label": "from" }
+              ],
+              "points": "2",
+              "question": "He told me to go___that direction",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "on" },
+                { "img": "", "label": "with" },
+                { "img": "}", "label": "at" },
+                { "img": "", "label": "in" }
+              ],
+              "points": "4",
+              "question": "There is some water___the bottle.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "on" },
+                { "img": "", "label": "in" },
+                { "img": "}", "label": "at" },
+                { "img": "", "label": "by" }
+              ],
+              "points": "4",
+              "question": "She was born___the fisrt of May.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Preposition",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "on,in" },
+                { "img": "", "label": "in,in" },
+                { "img": "}", "label": "on,on" },
+                { "img": "", "label": "in,on" }
+              ],
+              "points": "5",
+              "question": "He is sitting___the armchair and I am sitiing___the chair.",
+              "questionImg": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "subjectName": "Biology",
+      "noOfQuestion": 47,
+      "noOfChapters": 5,
+      "chapters": {
+        "Animal Kingdom": {
+          "chapterName": "Animal Kingdom",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Coelomate" },
+                { "img": "", "label": "Acoelomate" },
+                { "img": "}", "label": "Pseudocoelomate" },
+                { "img": "", "label": "Haemocoelomate" }
+              ],
+              "points": "2",
+              "question": "Hydra is",
+              "questionImg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2F2021%2F12%2F11%2Fscience%2Fhydra-regrow-head.html&psig=AOvVaw3MSjvCmwVd8DUjFo1M3433&ust=1671534438492000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJDh1ZvFhfwCFQAAAAAdAAAAABAD"
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Protozoa" },
+                { "img": "", "label": "Porifera" },
+                { "img": "}", "label": "Arthopoda" },
+                { "img": "", "label": "Echinodermata" }
+              ],
+              "points": "4",
+              "question": "Water Canal system is found in",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Coelentrata" },
+                { "img": "", "label": "Arthopoda" },
+                { "img": "}", "label": "Porifera" },
+                { "img": "", "label": "Aschelminthes" }
+              ],
+              "points": "2",
+              "question": "Jointed leg is the main characteristics of",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Porifera" },
+                { "img": "", "label": "Coelentrata" },
+                { "img": "}", "label": "Chordata" },
+                { "img": "", "label": "Mollusca" }
+              ],
+              "points": "2",
+              "question": "Sponges belongs to phylum",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Echinodermata" },
+                { "img": "", "label": "Annelida" },
+                { "img": "}", "label": "Mollusca" },
+                { "img": "", "label": "Porifera" }
+              ],
+              "points": "4",
+              "question": "Pearl secreating phylum is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Giardia" },
+                { "img": "", "label": "Trypanosoma" },
+                { "img": "}", "label": "Leishmania" },
+                { "img": "", "label": "Tse Tse fly" }
+              ],
+              "points": "4",
+              "question": "Kala-azar is caused by",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Dog tapeworm" },
+                { "img": "", "label": "Pork tapeworm" },
+                { "img": "}", "label": "Fish tapeworm" },
+                { "img": "", "label": "Beef tapeworm" }
+              ],
+              "points": "5",
+              "question": "Common name or Taenia solium is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "R.H Whittacer" },
+                { "img": "", "label": "Carolous linnaeus" },
+                { "img": "}", "label": "Mendle" },
+                { "img": "", "label": "Batson" }
+              ],
+              "points": "5",
+              "question": "Binomial system of nomenclature was given by",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Arboreal animal" },
+                { "img": "", "label": "Fossorial animal" },
+                { "img": "}", "label": "Cursorial animal" },
+                { "img": "", "label": "Saltatorial" }
+              ],
+              "points": "2",
+              "question": "Those animals which mostly live in the underground holes and burrow are called",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Animal Kingdom",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Aquatic" },
+                { "img": "", "label": "Terrestial" },
+                { "img": "}", "label": "Fossorial" },
+                { "img": "", "label": "Arboreal" }
+              ],
+              "points": "4",
+              "question": "Tree dwelling animals are",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Vetebrates": {
+          "chapterName": "Vetebrates",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Three chambered heart" },
+                { "img": "", "label": "Low body temperture" },
+                { "img": "}", "label": "External ear" },
+                { "img": "", "label": "Feathers" }
+              ],
+              "points": "2",
+              "question": "Birds have",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Prosimans" },
+                { "img": "", "label": "primates" },
+                { "img": "}", "label": "edentates" },
+                { "img": "", "label": "cetacea" }
+              ],
+              "points": "4",
+              "question": "Man belongs to the group",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Fragmentaion" },
+                { "img": "", "label": "Hypertomy" },
+                { "img": "}", "label": "Auotomy" },
+                { "img": "", "label": "Hypotomy" }
+              ],
+              "points": "5",
+              "question": "When lizard is threatened they can break of their tails and escape. This phenomenon is called",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Fishes" },
+                { "img": "", "label": "Amphibians" },
+                { "img": "}", "label": "Reptiles" },
+                { "img": "", "label": "Mammals" }
+              ],
+              "points": "2",
+              "question": "Dual nature of habitation is shown by",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "8 pairs" },
+                { "img": "", "label": "10 pairs" },
+                { "img": "}", "label": "12 pairs" },
+                { "img": "", "label": "14 pairs" }
+              ],
+              "points": "4",
+              "question": "No.of cranial nerves in mammals is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Herpetology" },
+                { "img": "", "label": "Icthyology" },
+                { "img": "}", "label": "Entomology" },
+                { "img": "", "label": "Ornithology" }
+              ],
+              "points": "4",
+              "question": "Science dealing with the study of reptile is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Aves" },
+                { "img": "", "label": "Reptile" },
+                { "img": "}", "label": "Amphibians" },
+                { "img": "", "label": "Reptiles" }
+              ],
+              "points": "4",
+              "question": "Pneumaic bones are found in",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Ominvorous" },
+                { "img": "", "label": "Carnivorous" },
+                { "img": "}", "label": "Herbivorous" },
+                { "img": "", "label": "Insectivorous" }
+              ],
+              "points": "4",
+              "question": "A tadpole of frog is",
+              "questionImg": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F23%2F124223-050-D46F70F6%2FLittlejohn-tree-frog-tadpole.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fscience%2Ftadpole&tbnid=eQ3nvwMasH0s1M&vet=12ahUKEwidt8SCh4j8AhVyitgFHV6CAysQMygCegUIARC6AQ..i&docid=lgLZeDSx4_6ZNM&w=1600&h=882&q=tadpole%20of%20frog%20feeds%20upon&ved=2ahUKEwidt8SCh4j8AhVyitgFHV6CAysQMygCegUIARC6AQ"
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "All invertebrates" },
+                { "img": "", "label": "Some invertebrates" },
+                { "img": "}", "label": "All chordates" },
+                { "img": "", "label": "Some chordates" }
+              ],
+              "points": "4",
+              "question": "Dorsal tubular nerve cord is found in",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Vertebrates",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "An amphibian" },
+                { "img": "", "label": "A reptile" },
+                { "img": "}", "label": "A bird" },
+                { "img": "", "label": "A mammal" }
+              ],
+              "points": "4",
+              "question": "Keeled sternum is found in",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Evolution": {
+          "chapterName": "Evolution",
+          "numberOfQuestions": 7,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Evolution",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Inheritance of acquirerd character" },
+                { "img": "", "label": "Descent with change" },
+                { "img": "}", "label": "Natural seletcion" },
+                { "img": "", "label": "Continuity of generation" }
+              ],
+              "points": "4",
+              "question": "Key point of Lamarkism is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Evolution",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Mutation" },
+                { "img": "", "label": "Natural selection" },
+                { "img": "}", "label": "Hybridization" },
+                { "img": "", "label": "Acquired characters" }
+              ],
+              "points": "4",
+              "question": "Darwin propsed thatt origin of species is by",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Evolution",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Fossils" },
+                { "img": "", "label": "Birds" },
+                { "img": "}", "label": "Embryo" },
+                { "img": "", "label": "Disease " }
+              ],
+              "points": "4",
+              "question": "Paleontology deals with sudy of",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Evolution",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Darwin" },
+                { "img": "", "label": "Lamark" },
+                { "img": "}", "label": "Hugo De Vries" },
+                { "img": "", "label": "Carolous linnaeus" }
+              ],
+              "points": "4",
+              "question": "Mutation theory of revolution was given by",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Evolution",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Hugo De Vries" },
+                { "img": "", "label": "Lamarkism" },
+                { "img": "}", "label": "Darwinism" },
+                { "img": "", "label": "Neo-darwinism" }
+              ],
+              "points": "5",
+              "question": "Use and dis-use of organ is related to",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Evolution",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Virus" },
+                { "img": "", "label": "Euglena" },
+                { "img": "}", "label": "Archeopteryx" },
+                { "img": "", "label": "ornithorhynchus" }
+              ],
+              "points": "4",
+              "question": "Connecting link between living and non-living organism is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Evolution",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Birds/finches" },
+                { "img": "", "label": "Oenothera Lamarkina" },
+                { "img": "}", "label": "Mice" },
+                { "img": "", "label": "Giraffe" }
+              ],
+              "points": "4",
+              "question": "Darwin experimentes on",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Blood": {
+          "chapterName": "Blood",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "epithelial tissue" },
+                { "img": "", "label": "connective tissue" },
+                { "img": "}", "label": "muscular tissue" },
+                { "img": "", "label": "nervous tissue" }
+              ],
+              "points": "4",
+              "question": "Blood is regarded as a:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "7.15-7.35" },
+                { "img": "", "label": "7.35-7.45" },
+                { "img": "}", "label": "7.25-7.85" },
+                { "img": "", "label": "6.35-6.45" }
+              ],
+              "points": "4",
+              "question": "Normal range of blood pH is:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "100 Days" },
+                { "img": "", "label": "120 Days" },
+                { "img": "}", "label": "180 Days" },
+                { "img": "", "label": "365 Days" }
+              ],
+              "points": "2",
+              "question": "The life span of a mature RBC is about:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Erthyrocyte" },
+                { "img": "", "label": "Monocyte" },
+                { "img": "}", "label": "Basophil" },
+                { "img": "", "label": "Neutrophil" }
+              ],
+              "points": "4",
+              "question": "The largest blood cell is:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "0" },
+                { "img": "", "label": "A" },
+                { "img": "}", "label": "AB" },
+                { "img": "", "label": "B" }
+              ],
+              "points": "2",
+              "question": "Which of the following blood group is often called the universal donor?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "haemorrhage" },
+                { "img": "", "label": "haemolysis" },
+                { "img": "}", "label": "hookworm infestation" },
+                { "img": "", "label": "malaria" }
+              ],
+              "points": "4",
+              "question": "The most common cause of anaemia in Nepal is:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "A,O" },
+                { "img": "", "label": "A,B" },
+                { "img": "}", "label": "A,B,O" },
+                { "img": "", "label": "A,B,AB,O" }
+              ],
+              "points": "5",
+              "question": "If father has blood group AB and mother O,the possible blood gropus of thier children would be:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "no antibodies; A and B antigens" },
+                { "img": "", "label": "anti-B antibody; A antigen" },
+                { "img": "}", "label": "anti-A antibody; B antigen" },
+                {
+                  "img": "",
+                  "label": "anti-A and anti-B antibodies; no antigen"
+                }
+              ],
+              "points": "5",
+              "question": "In blood group A there is:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "RBCs" },
+                { "img": "", "label": "WBCs" },
+                { "img": "}", "label": "Platelets" },
+                { "img": "", "label": "Electrolytes" }
+              ],
+              "points": "4",
+              "question": "Viscosity is mainly due to:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Blood",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Heparin" },
+                { "img": "", "label": "Protein" },
+                { "img": "}", "label": "Fibrinogen" },
+                { "img": "", "label": "Thromboplastin" }
+              ],
+              "points": "5",
+              "question": "Which of the following is an anticoagulant?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Respiratory System": {
+          "chapterName": "Respiratory System",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Pneumonia" },
+                { "img": "", "label": "Haemothorax" },
+                { "img": "}", "label": "Empysema" },
+                { "img": "", "label": "Leprosy" }
+              ],
+              "points": "4",
+              "question": "All are respiratory diseases except",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "9" },
+                { "img": "", "label": "7" },
+                { "img": "}", "label": "16-20" },
+                { "img": "", "label": "12" }
+              ],
+              "points": "5",
+              "question": "Larynx consists of___cartilages",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "lung" },
+                { "img": "", "label": "skin" },
+                { "img": "}", "label": "liver" },
+                { "img": "", "label": "heart" }
+              ],
+              "points": "2",
+              "question": "Smokers are likely to suffer from___cancer.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "5" },
+                { "img": "", "label": "4" },
+                { "img": "}", "label": "3" },
+                { "img": "", "label": "2" }
+              ],
+              "points": "4",
+              "question": "The left lungs has___lobes.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "2" },
+                { "img": "", "label": "3" },
+                { "img": "}", "label": "4" },
+                { "img": "", "label": "5" }
+              ],
+              "points": "5",
+              "question": "The right lungs has___lobes.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "5 cm" },
+                { "img": "", "label": "10 cm" },
+                { "img": "}", "label": "15 cm" },
+                { "img": "", "label": "20 cm" }
+              ],
+              "points": "4",
+              "question": "Trachea is___long.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Emphysema" },
+                { "img": "", "label": "Pneumothorax" },
+                { "img": "}", "label": "Hemothorax" },
+                { "img": "", "label": "Hydrothorax" }
+              ],
+              "points": "5",
+              "question": "Presence of air in pleural cavity is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "1000 ml" },
+                { "img": "", "label": "500 ml" },
+                { "img": "}", "label": "360 ml" },
+                { "img": "", "label": "150 ml" }
+              ],
+              "points": "5",
+              "question": "Tidal volume(generally)is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "common cough" },
+                { "img": "", "label": "pinaas" },
+                { "img": "}", "label": "cough" },
+                { "img": "", "label": "gums swelling" }
+              ],
+              "points": "5",
+              "question": "'Sinusitis 'is the medical term for",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Respiratory System",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Larynx" },
+                { "img": "", "label": "Pharynx" },
+                { "img": "}", "label": "Trachea" },
+                { "img": "", "label": "Nose" }
+              ],
+              "points": "4",
+              "question": "Tonsils are present in",
+              "questionImg": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "subjectName": "Physics",
+      "noOfQuestion": 48,
+      "noOfChapters": 5,
+      "chapters": {
+        "Electric Field": {
+          "chapterName": "Electric Field",
+          "numberOfQuestions": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Zero charges" },
+                { "img": "", "label": "Single charges" },
+                { "img": "}", "label": "Point charges" },
+                { "img": "", "label": "None" }
+              ],
+              "points": "3",
+              "question": "If the sizes of charged bodies are very small compared to the distances between them, we treat them as",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Electric current" },
+                { "img": "", "label": "Electric Potential" },
+                { "img": "}", "label": "Electric Field" },
+                { "img": "", "label": "Electric Sapce" }
+              ],
+              "points": "3",
+              "question": "The force per unit charge is known as ____________.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "-1" },
+                { "img": "", "label": "0" },
+                { "img": "}", "label": "1" },
+                { "img": "", "label": "Infinite" }
+              ],
+              "points": "3",
+              "question": " What is the dielectric constant of a metal?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "9x10^(-9 ) N" },
+                { "img": "", "label": "9x10^9 N" },
+                { "img": "}", "label": "10x10^(-9 ) N" },
+                { "img": "", "label": "10x10^9 N" }
+              ],
+              "points": "3",
+              "question": "If the charge of 1 C is placed at a distance of 1 m from another charge of the same magnitude in a vacuum, it experiences an electrical force repulsion of magnitude ____________.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                {
+                  "img": "",
+                  "label": "Charge, which is a fraction of charge on an electron, is not possible"
+                },
+                { "img": "", "label": "A charge cannot be destroyed" },
+                { "img": "}", "label": "Charge exists on particles" },
+                {
+                  "img": "",
+                  "label": "There exists a minimum permissible charge on a particle"
+                }
+              ],
+              "points": "3",
+              "question": "The Quantization of charge indicates that",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Equality of charge" },
+                { "img": "", "label": "Polarity of charge" },
+                { "img": "}", "label": "Fraction of charg" },
+                { "img": "", "label": "None of the option" }
+              ],
+              "points": "3",
+              "question": "The property which differentiates two kinds of charges is called ____________.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Electric Current" },
+                { "img": "", "label": "Electric Flux" },
+                { "img": "}", "label": "Electric Field" },
+                { "img": "", "label": "Electric Potential" }
+              ],
+              "points": "3",
+              "question": "————— gives the information on field strength, direction, and nature of the charge.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "gives protons to silk" },
+                { "img": "", "label": "gains protons from silk" },
+                { "img": "}", "label": "gains electrons from silk " },
+                { "img": "", "label": "gives electrons to silk " }
+              ],
+              "points": "2",
+              "question": "What happens when a glass rod is rubbed with silk?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Length " },
+                { "img": "", "label": "Material " },
+                { "img": "}", "label": "Shape" },
+                { "img": "", "label": "Thickness" }
+              ],
+              "points": "3",
+              "question": "Electrical resistivity of a metallic wire depends upon its __________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Electric Charges and Fields",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Watt second" },
+                { "img": "", "label": " Ampere hour " },
+                { "img": "}", "label": "Volt second" },
+                { "img": "", "label": "Kilowatt hour" }
+              ],
+              "points": "3",
+              "question": " Unit of electric power may also be expressed as ————–.",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Work Energy And Power": {
+          "chapterName": "Work Energy And Power",
+          "numberOfQuestions": 8,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": " Work Energy And Power",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Force " },
+                { "img": "", "label": "Acceleration " },
+                { "img": "}", "label": "Displacement" },
+                { "img": "", "label": "Power" }
+              ],
+              "points": "2",
+              "question": "The rate of doing work is called ——————-",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Work Energy And Power",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Inelastic Collision " },
+                { "img": "", "label": "Elastic Collision " },
+                { "img": "}", "label": "Destructive collision " },
+                { "img": "", "label": "None of the options" }
+              ],
+              "points": "3",
+              "question": "Which is the type of collision in which both the linear momentum and the kinetic energy of the system remain conserved?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Work Energy And Power",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Inelastic Collision " },
+                { "img": "", "label": "Elastic Collision " },
+                { "img": "}", "label": "Destructive collision " },
+                { "img": "", "label": "None of the options" }
+              ],
+              "points": "3",
+              "question": " Collision between marble balls is which type of collision?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Work Energy And Power",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Chemical energy " },
+                { "img": "", "label": "Thermal energy " },
+                { "img": "}", "label": "Potential energy" },
+                { "img": "", "label": " Kinetic energy" }
+              ],
+              "points": "3",
+              "question": "The energy possessed by the body by virtue of its motion is known as?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Work Energy And Power",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "100 W" },
+                { "img": "", "label": "200 W " },
+                { "img": "}", "label": "20W" },
+                { "img": "", "label": "500 W" }
+              ],
+              "points": "3",
+              "question": "What is the power utilised when work of 1000 J is done in 2 seconds?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Work Energy And Power",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Heavy body" },
+                { "img": "", "label": " Light body " },
+                { "img": "}", "label": "Both " },
+                { "img": "", "label": "None of the options" }
+              ],
+              "points": "3",
+              "question": "Which one has higher kinetic energy? Both light and heavy bodies have equal momenta.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Work Energy And Power",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "100kWh" },
+                { "img": "", "label": "200kWh" },
+                { "img": "}", "label": "120kWh" },
+                { "img": "", "label": "500kWh" }
+              ],
+              "points": "3",
+              "question": "An electric heater of rating 1000 W is used for 5 hrs per day for 20 days. What is the electrical energy utilized?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": " Work Energy And Power",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Negative " },
+                { "img": "", "label": "Zero " },
+                { "img": "}", "label": "Positive " },
+                { "img": "", "label": "None of the options" }
+              ],
+              "points": "3",
+              "question": "A ball moves in a frictionless inclined table without slipping. The work done by the table surface on the ball is",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Gravitation": {
+          "noOfQuestion": 10,
+          "chapterName": "Gravitation",
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "100 N" },
+                { "img": "", "label": "500 N" },
+                { "img": "}", "label": "250 N" },
+                { "img": "", "label": "125 N" }
+              ],
+              "points": "3",
+              "question": "A body weighs 500 N on the surface of the earth. How much would it weight half way below the surface of the earth?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Positive" },
+                { "img": "", "label": "Negative" },
+                { "img": "}", "label": "Zero" },
+                { "img": "", "label": "Might be Positive or Negative" }
+              ],
+              "points": "3",
+              "question": "A missile is launched with a velocity less than the escape velocity. The sum of its kinetic and potential energy is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "1032 days" },
+                { "img": "", "label": "129 days" },
+                { "img": "}", "label": "365 days" },
+                { "img": "", "label": "730 days" }
+              ],
+              "points": "3",
+              "question": "What would be the duration of the year if the distance between the earth and the sun gets doubled?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "(7/8) mgR" },
+                { "img": "", "label": "(5/6) mgR" },
+                { "img": "}", "label": "(6/7) mgR " },
+                { "img": "", "label": " (8/9) mgR" }
+              ],
+              "points": "3",
+              "question": "If a body of mass m is taken out from a point below the surface of earth equal to half the radius of earth, R, to a height R above the earths surface, then work done on it will be",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "R" },
+                { "img": "", "label": "R/2" },
+                { "img": "}", "label": "R/3" },
+                { "img": "", "label": "R/4" }
+              ],
+              "points": "3",
+              "question": "A body is projected vertically from the surface of the earth of radius R with velocity equal to half of the escape velocity. The maximum height reached by the body is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "it is closer to the earth" },
+                { "img": "", "label": "it revolves round the earth" },
+                { "img": "}", "label": "it gets light from the sun" },
+                {
+                  "img": "",
+                  "label": "the escape velocity of gas molecules is less than their root mean square velocity here"
+                }
+              ],
+              "points": "3",
+              "question": "There is no atmosphere on the moon because",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "increase by 1% " },
+                { "img": "", "label": " decrease by 2%" },
+                { "img": "}", "label": "decrease by 1%" },
+                { "img": "", "label": "increase by 2%" }
+              ],
+              "points": "3",
+              "question": "If the radius of the earth were to be raise by 1% its mass remaining the same, the acceleration due to gravity on the surface of the earth will",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Cavendish" },
+                { "img": "", "label": "Brook Taylor " },
+                { "img": "}", "label": "Copernicus " },
+                { "img": "", "label": " none of these" }
+              ],
+              "points": "3",
+              "question": "Who among the following first gave the experimental velocity of G?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                {
+                  "img": "",
+                  "label": "The acceleration of S is always directed towards the centre of the earth."
+                },
+                {
+                  "img": "",
+                  "label": "The angular momentum of S about the centre of the earth changes in direction, but its magnitude remains constant."
+                },
+                {
+                  "img": "}",
+                  "label": "The total mechanical energy of S varies periodically with time."
+                },
+                {
+                  "img": "",
+                  "label": "The linear momentum of S remains constant in magnitude."
+                }
+              ],
+              "points": "3",
+              "question": "A satellite S is move in an elliptical orbit around the earth. The mass of the satellite is very small compared to the mass of the earth .",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gravitation",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "1 : 2" },
+                { "img": "", "label": "2 : 1" },
+                { "img": "}", "label": "3 : 5" },
+                { "img": "", "label": "5 : 3" }
+              ],
+              "points": "3",
+              "question": "The masses of two planets are in the ratio 1 : 2. Their radii are in the ratio 1 : 2. The acceleration due to gravity on the planets are in the ratio.",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Light-Reflection and Refraction": {
+          "noOfQuestion": 10,
+          "chapterName": "Light-Reflection and Refraction",
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Interference " },
+                { "img": "", "label": "Mirage " },
+                { "img": "}", "label": "Diffraction " },
+                { "img": "", "label": "Refraction" }
+              ],
+              "points": "2",
+              "question": "The change in the direction of a wave passing from one medium to another is termed as —————",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "180 degrees " },
+                { "img": "", "label": "90 degrees " },
+                { "img": "}", "label": "0 degree" },
+                { "img": "", "label": "45 degrees" }
+              ],
+              "points": "2",
+              "question": "What would be the angle of incidence for a light ray having zero reflection angle?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Interference " },
+                { "img": "", "label": "Refraction " },
+                { "img": "}", "label": "Diffraction " },
+                { "img": "", "label": "Mirage" }
+              ],
+              "points": "2",
+              "question": "Light can be focused on our retina through which of the following phenomena?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a" },
+                { "img": "", "label": "v" },
+                { "img": "}", "label": "c" },
+                { "img": "", "label": "l" }
+              ],
+              "points": "2",
+              "question": "Speed of light in a vacuum is represented as —————.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a convex mirror " },
+                { "img": "", "label": "a plane mirror " },
+                { "img": "}", "label": "a concave mirror " },
+                { "img": "", "label": "none of the options" }
+              ],
+              "points": "2",
+              "question": "5. A full length of the image of a distant tall building can be seen using —————.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Faraday`s law" },
+                { "img": "", "label": "Snell`s law" },
+                { "img": "}", "label": "Newton`s law" },
+                { "img": "", "label": " Murphy`s law" }
+              ],
+              "points": "2",
+              "question": "The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant. It is given by ……………………",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Reflection " },
+                { "img": "", "label": "Interference " },
+                { "img": "}", "label": "Refraction " },
+                { "img": "", "label": "Divergence" }
+              ],
+              "points": "2",
+              "question": " Twinkling of stars is due to which optical phenomenon?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "a convex mirror " },
+                { "img": "", "label": "a plane mirror" },
+                { "img": "}", "label": "a concave mirror " },
+                {
+                  "img": "",
+                  "label": "all mirrors irrespective of their shape"
+                }
+              ],
+              "points": "2",
+              "question": "The laws of reflection are valid for —————",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Radius of curvature " },
+                { "img": "", "label": "Focus " },
+                { "img": "}", "label": " Optical centre " },
+                { "img": "", "label": "None of the options" }
+              ],
+              "points": "2",
+              "question": "Light from the Sun falling on a convex lens will converge at —————.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Light-Reflection and Refraction",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Radius of curvature " },
+                { "img": "", "label": " Optical centre" },
+                { "img": "}", "label": "Focus" },
+                { "img": "", "label": "None of the options" }
+              ],
+              "points": "2",
+              "question": "Concave lens produces —————.",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Laws Of Motion": {
+          "noOfQuestion": 10,
+          "chapterName": "Laws Of Motion",
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "1" },
+                { "img": "", "label": "0" },
+                { "img": "}", "label": "Increasing" },
+                { "img": "", "label": "Decreasing" }
+              ],
+              "points": "4",
+              "question": "What is the net force of a kite that is held stationary in the sky?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Statics " },
+                { "img": "", "label": "Thermodynamics " },
+                { "img": "}", "label": "Dynamics " },
+                { "img": "", "label": "Astronomy" }
+              ],
+              "points": "4",
+              "question": "Which is the branch of physics that deals with the motion of a body by considering the cause?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Linear velocity = 2(Mass + Velocity) " },
+                { "img": "", "label": "Linear velocity = Mass * Velocity " },
+                { "img": "}", "label": "Linear velocity = Mass / Velocity " },
+                { "img": "", "label": "Linear velocity = Mass – Velocity" }
+              ],
+              "points": "4",
+              "question": "What is the formula to find linear velocity?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Inertia of rest " },
+                { "img": "", "label": "Inertia of motion " },
+                { "img": "}", "label": "Inertia of direction " },
+                { "img": "", "label": "All the above options" }
+              ],
+              "points": "4",
+              "question": "Which is the type of inertia?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Becomes zero" },
+                { "img": "", "label": "Remains constant " },
+                { "img": "}", "label": "Increases gradually " },
+                { "img": "", "label": "Decreases gradually" }
+              ],
+              "points": "4",
+              "question": "When an external force is not applied to the system, its total momentum _____________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Moves with increasing velocity" },
+                { "img": "", "label": "Remains at rest" },
+                { "img": "}", "label": "Remains in a state of uniform motion" },
+                { "img": "", "label": "Option (b) and (c)" }
+              ],
+              "points": "4",
+              "question": "Apparent weight of a body = actual weight of the body, if the body _____________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Short force " },
+                { "img": "", "label": "Interval force" },
+                { "img": "}", "label": " Impulsive forces " },
+                { "img": "", "label": "Interrupting force" }
+              ],
+              "points": "4",
+              "question": " Forces acting for a short duration are called _____________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Force" },
+                { "img": "", "label": "Momentum" },
+                { "img": "}", "label": "Inertia" },
+                { "img": "", "label": "Acceleration" }
+              ],
+              "points": "4",
+              "question": "The inherent property, with which a body resists any change in its state of motion is known as _____________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "1 Newton = 1 kg x 1 m/s^2 " },
+                { "img": "", "label": " 1 Newton = 1 kg" },
+                { "img": "}", "label": "1 Newton = 1 kg x 1 m/s " },
+                { "img": "", "label": "1 Newton = m/s^2" }
+              ],
+              "points": "4",
+              "question": "1 Newton = _____________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Laws of Motion",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "gravitational force" },
+                { "img": "", "label": "electrostatic force" },
+                { "img": "}", "label": " weak force" },
+                { "img": "", "label": "strong force" }
+              ],
+              "points": "4",
+              "question": "Inside the nucleus, two protons are held together by a force which overcomes the repulsion. This force is called",
+              "questionImg": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "subjectName": "Chemistry",
+      "noOfQuestion": 46,
+      "noOfChapters": 5,
+      "chapters": {
+        "Acid,bases and salts": {
+          "chapterName": "Acid,bases and salts",
+          "noOfQuestion": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "protongenic" },
+                { "img": "", "label": "protophilic" },
+                { "img": "}", "label": "amphoteric" },
+                { "img": "", "label": "amphiprotic" }
+              ],
+              "points": "5",
+              "question": "A proton donor is a chemical that",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "gastric juice" },
+                { "img": "", "label": " vinegar" },
+                { "img": "}", "label": "blood plasma" },
+                { "img": "", "label": " lemon juice" }
+              ],
+              "points": "4",
+              "question": "The PH of which of the following is more than 7?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Citric Acid" },
+                { "img": "", "label": "Oxalic Acid" },
+                { "img": "}", "label": "Lactic Acid" },
+                { "img": "", "label": "HCl" }
+              ],
+              "points": "4",
+              "question": "Which Acid is present in Tomato?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "HCl pH 1" },
+                { "img": "", "label": "CH3COOH pH 5" },
+                { "img": "}", "label": "Lemon juice pH 2.2" },
+                { "img": "", "label": "Pure Milk pH 6" }
+              ],
+              "points": "4",
+              "question": "Which of the following is a strong acid?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Baking soda" },
+                { "img": "", "label": "Baking powder" },
+                { "img": "}", "label": "Washing soda" },
+                { "img": "", "label": "Bleaching powder" }
+              ],
+              "points": "4",
+              "question": "Na2CO3.10H2O is known as –",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Blue vitriol" },
+                { "img": "", "label": "Baking soda" },
+                { "img": "}", "label": "Washing soda" },
+                { "img": "", "label": "Gypsum" }
+              ],
+              "points": "4",
+              "question": "Which of the following salts does not contain water of crystallisation?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": " Acidic" },
+                { "img": "", "label": "Basic" },
+                { "img": "}", "label": "Neutral" },
+                { "img": "", "label": " None of these" }
+              ],
+              "points": "2",
+              "question": "When a pH value of a solution shows 7, then a solution is?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": " Calcium Carbonate" },
+                { "img": "", "label": "Potassium Chloride" },
+                { "img": "}", "label": "Sodium Bicarbonate" },
+                { "img": "", "label": "Hydrogen Chloride" }
+              ],
+              "points": "2",
+              "question": " What is the chemical name of baking soda?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Neela thotha" },
+                { "img": "", "label": "Kala Azar" },
+                { "img": "}", "label": "Caustic soda" },
+                { "img": "", "label": "None of these" }
+              ],
+              "points": "2",
+              "question": "What is the common name of sodium hydroxide?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Acids,bases and salts",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Water" },
+                { "img": "", "label": " Gas" },
+                { "img": "}", "label": " Alcohol" },
+                { "img": "", "label": " Honey" }
+              ],
+              "points": "5",
+              "question": "Which of the following is viscous in nature?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Organic Compound": {
+          "chapterName": "Organic Compound",
+          "noOfQuestion": 9,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Formic acid" },
+                { "img": "", "label": " Formaldehyde" },
+                { "img": "}", "label": "Methane" },
+                { "img": "", "label": "Methanol" }
+              ],
+              "points": "4",
+              "question": "Which of the following is the simplest member of organic compounds?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Both hydrogen and carbon" },
+                { "img": "", "label": "Carbon" },
+                { "img": "}", "label": "Hydrogen" },
+                { "img": "", "label": "Oxygen" }
+              ],
+              "points": "2",
+              "question": "Hydrocarbons are organic compounds with element __________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "KCl" },
+                { "img": "", "label": "CH3OH" },
+                { "img": "}", "label": "HCl" },
+                { "img": "", "label": "CH3COOH" }
+              ],
+              "points": "4",
+              "question": "Which of the following is neither an acid nor base?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Isocyano" },
+                { "img": "", "label": "Carbonyl" },
+                { "img": "}", "label": " Isocyanide" },
+                { "img": "", "label": "Carboxyl" }
+              ],
+              "points": "4",
+              "question": "Organic compounds can be classified even based upon the function groups. Which of the following is not a functional group?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Methane" },
+                { "img": "", "label": "Methene" },
+                { "img": "}", "label": "Ethane" },
+                { "img": "", "label": "Ethene" }
+              ],
+              "points": "4",
+              "question": "Identify the simplest alkane.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Methane and ethane" },
+                { "img": "", "label": "Ethane and propane" },
+                { "img": "}", "label": "Propane and butane" },
+                { "img": "", "label": "Butane and hexane" }
+              ],
+              "points": "4",
+              "question": "Liquified petroleum gas is mainly composed of _____________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "alkane" },
+                { "img": "", "label": "alkyne" },
+                { "img": "}", "label": "alkene" },
+                { "img": "", "label": "aldehyde" }
+              ],
+              "points": "4",
+              "question": "Which among the following is formed when an alcohol is dehydrated?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Fructose and mannose" },
+                { "img": "", "label": "Mannose and glucose" },
+                { "img": "}", "label": "Glucose and fructose " },
+                { "img": "", "label": "Glucose" }
+              ],
+              "points": "5",
+              "question": "The components of Insulin are:",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Organic Compund",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Methane" },
+                { "img": "", "label": "Ethane" },
+                { "img": "}", "label": "Propane" },
+                { "img": "", "label": "Butane" }
+              ],
+              "points": "2",
+              "question": "Which alkane is known as marsh gas?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Gases": {
+          "chapterName": "Gases",
+          "noOfQuestion": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Nitrogen" },
+                { "img": "", "label": "hydrogen" },
+                { "img": "}", "label": "Neon" },
+                { "img": "", "label": "oxygen" }
+              ],
+              "points": "4",
+              "question": "The example of gas having monoatomic molecules is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "carbon dioxide" },
+                { "img": "", "label": "hydrogen" },
+                { "img": "}", "label": "sulphur" },
+                { "img": "", "label": "oxygen" }
+              ],
+              "points": "4",
+              "question": "31.1 degree is the critical temperature for",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "760 mm of Hg" },
+                { "img": "", "label": "740 mm of Hg" },
+                { "img": "}", "label": "720 mm of Hg" },
+                { "img": "", "label": "780 mm of Hg" }
+              ],
+              "points": "2",
+              "question": "1 atmosphere is equal to",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "pressure" },
+                { "img": "", "label": "effusion" },
+                { "img": "}", "label": "diffusion" },
+                { "img": "", "label": "volume" }
+              ],
+              "points": "2",
+              "question": "The fragrance of a flower spreads because of",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "nuclear fusion" },
+                { "img": "", "label": "fission" },
+                { "img": "}", "label": "ions" },
+                { "img": "", "label": "atoms" }
+              ],
+              "points": "2",
+              "question": "Sun is usually heated by",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "motors" },
+                { "img": "", "label": "fans" },
+                { "img": "}", "label": "cars" },
+                { "img": "", "label": "lasers" }
+              ],
+              "points": "2",
+              "question": "Plasma is used to drive particle accelerators and",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Helium" },
+                { "img": "", "label": "Argon" },
+                { "img": "}", "label": "Nitrogen" },
+                { "img": "", "label": "Neon" }
+              ],
+              "points": "4",
+              "question": "Which of the following gas produces red light when electricity is flows throught it?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Helium" },
+                { "img": "", "label": "Krypton" },
+                { "img": "}", "label": "Xenon" },
+                { "img": "", "label": "Radon" }
+              ],
+              "points": "4",
+              "question": "A radioactive rare gas is",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Hydrogen" },
+                { "img": "", "label": "Helium" },
+                { "img": "}", "label": "Carbon Dioxide" },
+                { "img": "", "label": "Oxygen" }
+              ],
+              "points": "2",
+              "question": "Which gas is also called'noble gas'?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Gases",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": " Boltzmann" },
+                { "img": "", "label": "Maxell" },
+                { "img": "}", "label": "Clausius" },
+                { "img": "", "label": "Bernoulli" }
+              ],
+              "points": "5",
+              "question": "The kinetic molecular theory of gases was put forward in 1738 by",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Metals and Non-metals": {
+          "chapterName": "Metals and Non-metals",
+          "noOfQuestion": 9,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "1",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Kaolinite" },
+                { "img": "", "label": "Bauxite " },
+                { "img": "}", "label": "Malachite " },
+                { "img": "", "label": "Cinnabar" }
+              ],
+              "points": "2",
+              "question": "The primary ore of aluminium is which of the following?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Hematite" },
+                { "img": "", "label": "Magnetite " },
+                { "img": "}", "label": "Siderite " },
+                { "img": "", "label": " Iron Pyrites" }
+              ],
+              "points": "3",
+              "question": "Which of the following is not an appropriate ore for iron extraction?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Zinc" },
+                { "img": "", "label": "Copper " },
+                { "img": "}", "label": "Iron " },
+                { "img": "", "label": "Mercury" }
+              ],
+              "points": "3",
+              "question": "Cinnabar is used to extract which metal?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                {
+                  "img": "",
+                  "label": "Aluminium is a poor conductor of heat and electricity"
+                },
+                { "img": "", "label": "Aluminium is light in weight" },
+                { "img": "}", "label": "It readily dissolves in HCl" },
+                {
+                  "img": "",
+                  "label": "Aluminium is highly resistant to corrosion"
+                }
+              ],
+              "points": "3",
+              "question": "Aluminium does not have which of the following properties?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Cobalt is a lustrous white metal" },
+                { "img": "", "label": "It is attacked by alkalies" },
+                { "img": "}", "label": "Cobalt is malleable" },
+                { "img": "", "label": "Cobalt is ductile" }
+              ],
+              "points": "3",
+              "question": "Which of the following isn`t a cobalt property?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Limonite" },
+                { "img": "", "label": "Zincite" },
+                { "img": "}", "label": "Calamine " },
+                { "img": "", "label": "Franklinite" }
+              ],
+              "points": "3",
+              "question": "Which one of the following is not a zinc ore?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Brass" },
+                { "img": "", "label": "Bronze " },
+                { "img": "}", "label": "Duralumin " },
+                { "img": "", "label": "Nichrome" }
+              ],
+              "points": "3",
+              "question": "Copper and zinc alloy is known as __________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Copper" },
+                { "img": "", "label": "Nickel " },
+                { "img": "}", "label": "Iron" },
+                { "img": "", "label": "Aluminum" }
+              ],
+              "points": "3",
+              "question": "The main component of Duralumin alloy is ____________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Metals and Non-metals",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "98 percent" },
+                { "img": "", "label": "94 percent" },
+                { "img": "}", "label": "86 percent" },
+                { "img": "", "label": "74 percent" }
+              ],
+              "points": "3",
+              "question": "In calamine, what is the zinc concentration?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Periodic Classification of Elements": {
+          "chaperName": "Periodic Classification of Elements",
+          "noOfQuestion": 8,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Periodic Classification of Elements",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": " Li, Na, and K" },
+                { "img": "", "label": "He, Na and Ar" },
+                { "img": "}", "label": "Ca, Sr and Ba" },
+                { "img": "", "label": " CL, Br and I" }
+              ],
+              "points": "3",
+              "question": "Which of the following does not belong to the group of Doberiener’s triad?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Periodic Classification of Elements",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": " Atomic Weights" },
+                { "img": "", "label": " Atomic Number" },
+                { "img": "}", "label": "Chemical properties" },
+                { "img": "", "label": "No of protons" }
+              ],
+              "points": "3",
+              "question": "The attributes of corresponding elements are the periodic functions of the ________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Periodic Classification of Elements",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Atomic mass" },
+                { "img": "", "label": " Element behaviour" },
+                { "img": "}", "label": " No of electrons" },
+                { "img": "", "label": " Atomic number" }
+              ],
+              "points": "3",
+              "question": " An element`s physical and chemical properties are a periodic function of its mass",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Periodic Classification of Elements",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "periods" },
+                { "img": "", "label": "groups " },
+                { "img": "}", "label": "series " },
+                { "img": "", "label": "rows" }
+              ],
+              "points": "3",
+              "question": "Mendeleev’s periodic table’s horizontal rows were called __________",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Periodic Classification of Elements",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Azimuthal quantum number b) " },
+                { "img": "", "label": "Spin quantum number" },
+                { "img": "}", "label": "Magnetic quantum number" },
+                { "img": "", "label": "Principal quantum number" }
+              ],
+              "points": "4",
+              "question": "The greatest number in the period correlates to the highest number in the period.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Periodic Classification of Elements",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Ni" },
+                { "img": "", "label": "Au" },
+                { "img": "}", "label": "La" },
+                { "img": "", "label": "Nb" }
+              ],
+              "points": "4",
+              "question": ". Which of the following elements belongs to the periodic table`s second transition( elements that have partially filled d orbitals.) series?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Periodic Classification of Elements",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Metallic" },
+                { "img": "", "label": "Non-metallic " },
+                { "img": "}", "label": "Metalloid " },
+                { "img": "", "label": "Varies from element to element" }
+              ],
+              "points": "4",
+              "question": "What are the transition( elements that have partially filled d orbitals. ) elements’ characteristics?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Periodic Classification of Elements",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Acidic nature only" },
+                { "img": "", "label": "Basic nature only" },
+                { "img": "}", "label": "Both acidic nature and basic nature" },
+                { "img": "", "label": "Nothing" }
+              ],
+              "points": "3",
+              "question": " What may a litmus paper be used to test?",
+              "questionImg": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "subjectName": "Computer",
+      "noOfQuestion": 49,
+      "noOfChapters": 5,
+      "chapters": {
+        "General": {
+          "chapterName": "",
+          "noOfQuestion": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "modifier" },
+                { "img": "", "label": "function" },
+                { "img": "}", "label": "alphanumeric" },
+                { "img": "", "label": "adjustment" }
+              ],
+              "points": "4",
+              "question": "Ctrl, Shift and Alt are called .......... keys.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Spam" },
+                { "img": "", "label": "Spoof" },
+                { "img": "}", "label": "Sniffer script" },
+                { "img": "", "label": "Spool" }
+              ],
+              "points": "4",
+              "question": "Junk e-mail is also called ______",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Mother Board" },
+                { "img": "", "label": "Expansion Board" },
+                { "img": "}", "label": "External Drive" },
+                { "img": "", "label": " None" }
+              ],
+              "points": "2",
+              "question": "Where is RAM located?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "compiler" },
+                { "img": "", "label": "interpreter" },
+                { "img": "}", "label": "converter" },
+                { "img": "", "label": "instructions" }
+              ],
+              "points": "4",
+              "question": "_______ converts and executes one statement at a time",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Text Effects" },
+                { "img": "", "label": "Font Styles" },
+                { "img": "}", "label": "Font Effects" },
+                { "img": "", "label": "Word Art" }
+              ],
+              "points": "4",
+              "question": "Bold, Italic, Regular are known as",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "buzz" },
+                { "img": "", "label": "nibble" },
+                { "img": "}", "label": "byte" },
+                { "img": "", "label": "word" }
+              ],
+              "points": "2",
+              "question": "A group of eight bits is called",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": " Optical Disc" },
+                { "img": "", "label": "Hard Disc" },
+                { "img": "}", "label": "Output Device" },
+                { "img": "", "label": " Solid state storage device" }
+              ],
+              "points": "2",
+              "question": "A DVD is an example of",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "General",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Nothing" },
+                {
+                  "img": "",
+                  "label": "Saves a .png file of what's on the screen in your screenshots folder in photos"
+                },
+                {
+                  "img": "}",
+                  "label": "Captures what's on the screen and copies it to your clipboard"
+                },
+                { "img": "", "label": "Closes all windows" }
+              ],
+              "points": "2",
+              "question": "What does the Prt Sc button do?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "General",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "8" },
+                { "img": "", "label": "23" },
+                { "img": "}", "label": "53" },
+                { "img": "", "label": "15" }
+              ],
+              "points": "5",
+              "question": "How many bits make up the significand portion of a single precision floating point number?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "General",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "128 bits" },
+                { "img": "", "label": "32 bits" },
+                { "img": "}", "label": "64 bits" },
+                { "img": "", "label": "128 bits" }
+              ],
+              "points": "5",
+              "question": "How long is an IPv6 address?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Application Software": {
+          "chapterName": "Application Software",
+          "noOfQuestion": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "An operating system" },
+                { "img": "", "label": "A processing device" },
+                { "img": "}", "label": " Application software" },
+                { "img": "", "label": "An input device" }
+              ],
+              "points": "2",
+              "question": "MS-Word is an example of _____",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "MICR device" },
+                { "img": "", "label": "Floppy disk" },
+                { "img": "}", "label": "MODEM" },
+                { "img": "", "label": "Light pen" }
+              ],
+              "points": "4",
+              "question": "Which of the following is used to receive and send computer files over telephone lines? ",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "WinZip and Linux" },
+                { "img": "", "label": "Shareware and file sharing" },
+                {
+                  "img": "}",
+                  "label": " Microsoft word and the Google toolbar"
+                },
+                {
+                  "img": "",
+                  "label": "Instant messaging and the Google toolbar"
+                }
+              ],
+              "points": "5",
+              "question": "What are two example of freeware?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "an internet web browser" },
+                { "img": "", "label": "a compiler" },
+                { "img": "}", "label": "an operating system" },
+                { "img": "", "label": "an IP address" }
+              ],
+              "points": "4",
+              "question": " Internet Explorer falls under",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Linux" },
+                { "img": "", "label": "Windows 98" },
+                { "img": "}", "label": "C++" },
+                { "img": "", "label": "Windows 7" }
+              ],
+              "points": "4",
+              "question": " Find the 'odd one out",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Only rows" },
+                { "img": "", "label": "Only columns" },
+                { "img": "}", "label": "Entire worksheet" },
+                { "img": "", "label": "All of the above" }
+              ],
+              "points": "2",
+              "question": "In a worksheet, you can select",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Application Software",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Windows 2000" },
+                { "img": "", "label": "Windows 7" },
+                { "img": "}", "label": "Windows 95" },
+                { "img": "", "label": "Windows XP" }
+              ],
+              "points": "5",
+              "question": "Whistler was the codename of this Microsoft Operating System.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Application Software",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Spreadsheet" },
+                { "img": "", "label": "Personal writer" },
+                { "img": "}", "label": "Word printer" },
+                { "img": "", "label": "Word processor" }
+              ],
+              "points": "2",
+              "question": "A program which helps create written documents and lets you go back and make corrections as necesary ____",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Application Software",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Secodary stoage" },
+                { "img": "", "label": "ROM" },
+                { "img": "}", "label": "RAM" },
+                { "img": "", "label": "None of these" }
+              ],
+              "points": "2",
+              "question": "During Processing data, programs, and processed information are held temporarily in _______",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Application Software",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Open a program" },
+                { "img": "", "label": "Check recent CPU usage" },
+                { "img": "}", "label": "Delete a program from the hard drive" },
+                {
+                  "img": "",
+                  "label": "View what applications are running in the background"
+                }
+              ],
+              "points": "4",
+              "question": "What cannot be performed from the windows task manager?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Programming": {
+          "chapterName": "Programming",
+          "noOfQuestion": 9,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Programming",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Python" },
+                { "img": "", "label": "Assembly" },
+                { "img": "}", "label": "C#" },
+                { "img": "", "label": "Pascal" }
+              ],
+              "points": "3",
+              "question": "Which of these programming languages is a low-level language?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Programming",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": " CPU chip" },
+                { "img": "", "label": "Hard disk drive" },
+                { "img": "}", "label": "Memeory chip" },
+                { "img": "", "label": "Disc drive" }
+              ],
+              "points": "2",
+              "question": "Where does a computer add and compare data?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Compiling" },
+                { "img": "", "label": "Testing" },
+                { "img": "}", "label": "Running" },
+                { "img": "", "label": "Debugging" }
+              ],
+              "points": "4",
+              "question": "_________ is a process of searching bugs in software",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Programming",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "?:" },
+                { "img": "", "label": "??" },
+                { "img": "}", "label": "if then" },
+                { "img": "", "label": "?" }
+              ],
+              "points": "5",
+              "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Programming",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Python" },
+                { "img": "", "label": "Assembly" },
+                { "img": "}", "label": "C#" },
+                { "img": "", "label": "Pascal" }
+              ],
+              "points": "3",
+              "question": "Which of these programming languages is a low-level language?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Programming",
+              "correct": "2",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Legend" },
+                { "img": "", "label": "Algorithem" },
+                { "img": "}", "label": "Flowchart" },
+                { "img": "", "label": "Process" }
+              ],
+              "points": "3",
+              "question": "____ is a diagrammatic representation of a program logic.",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Programming",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Rows" },
+                { "img": "", "label": "Columns" },
+                { "img": "}", "label": "Both A & B" },
+                { "img": "", "label": "Tables" }
+              ],
+              "points": "2",
+              "question": "A spreadsheet contains",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Programming",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Company Configuration" },
+                { "img": "", "label": "Accounting Features" },
+                { "img": "}", "label": "Company Features" },
+                { "img": "", "label": "All of the above" }
+              ],
+              "points": "5",
+              "question": "F12 key is known as",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Programming",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Printed on printer" },
+                { "img": "", "label": "Stored in floppy" },
+                { "img": "}", "label": "Store in CD" },
+                { "img": "", "label": "Store in hard disk" }
+              ],
+              "points": "2",
+              "question": "Hard copy of a document is",
+              "questionImg": ""
+            }
+          ]
+        },
+        "History": {
+          "chapterName": "History",
+          "noOfQuestion": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "History",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Commodore 64" },
+                { "img": "", "label": "TRS-80" },
+                { "img": "}", "label": "ZX Spectrum" },
+                { "img": "", "label": "Apple 3" }
+              ],
+              "points": "5",
+              "question": "Which of the following is the oldest of these computers by release date?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "History",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Dennis Ritchie" },
+                { "img": "", "label": "Tim Berners Lee" },
+                { "img": "}", "label": "al-Khwārizmī" },
+                { "img": "", "label": "Willis Ware" }
+              ],
+              "points": "5",
+              "question": "The C programming language was created by this American computer scientist. ",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Assembly language" },
+                { "img": "", "label": "Machine language" },
+                { "img": "}", "label": "Spaghetti code" },
+                { "img": "", "label": "Source code " }
+              ],
+              "points": "4",
+              "question": "The first computer was programmed using ......",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "First generation" },
+                { "img": "", "label": "Second generation" },
+                { "img": "}", "label": "Third generation" },
+                { "img": "", "label": "Fourth generation" }
+              ],
+              "points": "2",
+              "question": " Microprocessors as switching devices are for which generation computers?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "History",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Vacuum tubes" },
+                { "img": "", "label": "integrated circuits" },
+                { "img": "}", "label": "transisters" },
+                { "img": "", "label": "None of the above" }
+              ],
+              "points": "2",
+              "question": "Chief component of first generation computer was",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "History",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "IBM 1401" },
+                { "img": "", "label": "ENIAC" },
+                { "img": "}", "label": "IBM 1402" },
+                { "img": "", "label": "ICL/2950" }
+              ],
+              "points": "3",
+              "question": "The first computer introduced in Nepal was ?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "History",
+              "correct": "3",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Bill Gates" },
+                { "img": "", "label": "Lee.N.Feyong" },
+                { "img": "}", "label": "N. Resscl" },
+                { "img": "", "label": "Tim Berners Lee" }
+              ],
+              "points": "3",
+              "question": "Inventor of WWW is ____",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "History",
+              "correct": "1",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Very Large Scale Integration (VLSI)" },
+                {
+                  "img": "",
+                  "label": "Knowledge information processing system"
+                },
+                { "img": "}", "label": "Both A & B" },
+                { "img": "", "label": "None of the above" }
+              ],
+              "points": "3",
+              "question": "Fifth generation computer is also known as",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "History",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "NVIDIA Corporation" },
+                { "img": "", "label": "PLX Devices" },
+                { "img": "}", "label": "INTEL Corporation" },
+                { "img": "", "label": "ENOcean Private Company" }
+              ],
+              "points": "4",
+              "question": "Which company manufactured the first microprocessor 4004?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "History",
+              "correct": "1",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Sixth Generation" },
+                { "img": "", "label": "Fifth Generation" },
+                { "img": "}", "label": "Third Geneation" },
+                { "img": "", "label": "Fourth Generation" }
+              ],
+              "points": "4",
+              "question": "Artificial Intelligence is associated with which generation?",
+              "questionImg": ""
+            }
+          ]
+        },
+        "Full Forms": {
+          "chapterName": "Full Forms",
+          "noOfQuestion": 10,
+          "questions": [
+            {
+              "avgTime": 15,
+              "chapter": "Full Form",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Java Visual Machine" },
+                { "img": "", "label": "Just Virtual Machine" },
+                { "img": "}", "label": "Java Virtual Machine" },
+                { "img": "", "label": "Java Vendor Machine" }
+              ],
+              "points": "5",
+              "question": "What does the computer software acronym JVM stand for?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Full Form",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Hewlett-Packard" },
+                { "img": "", "label": "Howard Packmann" },
+                { "img": "}", "label": "Husker-Pollosk" },
+                { "img": "", "label": "Hellman-Pohl" }
+              ],
+              "points": "5",
+              "question": "The name of technology company HP stands for what?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Full Form",
+              "correct": "3",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Content Distribution Network" },
+                { "img": "", "label": "Computational Data Network" },
+                { "img": "}", "label": "Compressed Data Network" },
+                { "img": "", "label": "Content Delivery Network" }
+              ],
+              "points": "5",
+              "question": "What does the acronym CDN stand for in terms of networking?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Full Forms",
+              "correct": "0",
+              "level": "Medium",
+              "options": [
+                { "img": "", "label": "Video Graphics Array" },
+                { "img": "", "label": "Video Graphics Audio" },
+                { "img": "}", "label": "Visual Graphics Audio" },
+                { "img": "", "label": "Visual Graphics Array" }
+              ],
+              "points": "4",
+              "question": "In the field of computing, what does VGA stand for?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Full Forms",
+              "correct": "0",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Internet Protocol" },
+                { "img": "", "label": "Intra Propaganda" },
+                { "img": "}", "label": "Intra Protocol" },
+                { "img": "", "label": "Internet Proposal" }
+              ],
+              "points": "2",
+              "question": " In the context of the Internet, what does IP stand for?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Full Forms",
+              "correct": "0",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Command Line Interface" },
+                { "img": "", "label": "Common Language Input" },
+                { "img": "}", "label": "Control Line Interface" },
+                { "img": "", "label": "Common Language Interface" }
+              ],
+              "points": "5",
+              "question": "In computing terms, typically what does CLI stand for?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Full Forms",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Language Control Design" },
+                { "img": "", "label": "Last Common Difference" },
+                { "img": "}", "label": "Liquid Crystal Display" },
+                { "img": "", "label": "Long Continuous Design" }
+              ],
+              "points": "2",
+              "question": "What does LCD stand for?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Full Forms",
+              "correct": "2",
+              "level": "Hard",
+              "options": [
+                { "img": "", "label": "Long Taco Service" },
+                { "img": "", "label": "Ludicrous Transfer Speed" },
+                { "img": "}", "label": "Long Term Service" },
+                { "img": "", "label": "Ludicrous Turbo Speed" }
+              ],
+              "points": "5",
+              "question": "What does LTS stand for in the software market?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "",
+              "correct": "3",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": " Undistributed Resource Locator" },
+                { "img": "", "label": " Uniform Region Locator" },
+                { "img": "}", "label": "Unified Resource Locator" },
+                { "img": "", "label": "Uniform Resource Locator" }
+              ],
+              "points": "2",
+              "question": "In context of computing, what is the full form of URL?",
+              "questionImg": ""
+            },
+            {
+              "avgTime": 15,
+              "chapter": "Full Form",
+              "correct": "2",
+              "level": "Easy",
+              "options": [
+                { "img": "", "label": "Long Antenna Node" },
+                { "img": "", "label": "Light Access Node" },
+                { "img": "}", "label": "Local Area Network" },
+                { "img": "", "label": "Land Address Navigation" }
+              ],
+              "points": "2",
+              "question": "In computing, what does LAN stand for?",
+              "questionImg": ""
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

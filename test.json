@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "avgTime": 15,
+      "chapter": "",
+      "correct": 0,
+      "level": "Medium",
+      "options": ["modifier", "function", "alphanumeric", "adjustment"],
+      "question": "Ctrl, Shift and Alt are called .......... keys."
+    },
+    {
+      "avgTime": 15,
+      "chapter": "",
+      "correct": 0,
+      "level": "Medium",
+      "options": ["Spam", "Spoof", "Sniffer script", "Spool"],
+      "question": "Junk e-mail is also called ______"
+    },
+    {
+      "avgTime": 15,
+      "chapter": "",
+      "correct": 0,
+      "level": "Easy",
+      "options": ["Mother Board", "Expansion Board", "External Drive", " None"],
+      "question": "Where is RAM located?"
+    },
+    {
+      "avgTime": 15,
+      "chapter": "",
+      "correct": 1,
+      "level": "Medium",
+      "options": ["compiler", "interpreter", "converter", "instructions"],
+      "question": "_______ converts and executes one statement at a time"
+    },
+    {
+      "avgTime": 15,
+      "chapter": "",
+      "correct": 1,
+      "level": "Medium",
+      "options": ["Text Effects", "Font Styles", "Font Effects", "Word Art"],
+      "question": "Bold, Italic, Regular are known as"
+    },
+    {
+      "avgTime": 15,
+      "chapter": "",
+      "correct": 2,
+      "level": "Easy",
+      "options": ["buzz", "nibble", "byte", "word"],
+      "question": "A group of eight bits is called"
+    },
+    {
+      "avgTime": 15,
+      "chapter": "",
+      "correct": 0,
+      "level": "Easy",
+      "options": [" Optical Disc", "Hard Disc", "Output Device", " Solid state storage device"],
+      "question": "A DVD is an example of"
+    },
+    {
+      "avgTime": 15,
+      "chapter": "General",
+      "correct": 2,
+      "level": "Easy",
+      "options": [
+        "Nothing",
+        "Saves a .png file of what's on the screen in your screenshots folder in photos",
+        "Captures what's on the screen and copies it to your clipboar",
+        "Closes all windows"
+      ],
+      "question": "What does the Prt Sc button do?"
+    },
+    {
+      "avgTime": 15,
+      "chapter": "General",
+      "correct": 1,
+      "level": "Hard",
+      "options": ["8", "23", "53", "15"],
+      "question": "How many bits make up the significand portion of a single precision floating point number?"
+    },
+    {
+      "avgTime": 15,
+      "chapter": "General",
+      "correct": 0,
+      "level": "Hard",
+      "options": ["128 bits", "32 bits", "64 bits", "128 bits"],
+      "question": "How long is an IPv6 address?"
+    }
+  ]
+}
