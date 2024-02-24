@@ -2,6 +2,7 @@
 import { KBCContext } from "@/context/KBCContext";
 import React, { FC, useContext, useState } from "react";
 import TrophyCard from "./TrophyCard";
+import { SparkingBackground } from "../sparking-bg";
 
 export const priceCounter = [
   "2",
@@ -60,15 +61,18 @@ export const suffix = [
 const PriceTable: FC<{ name: string }> = ({ name }) => {
   const { kbc } = useContext(KBCContext);
   return (
-    <div className="fixed flex flex-col space-y-10 justify-center items-center top-0 bg-slate-800 left-0 h-screen w-screen z-50">
-      <h1 className="text-5xl font-bold subjective text-yellow-500">Congrulation On</h1>
-      <TrophyCard
-        name={name}
-        count={priceCounter[kbc.questionCounter]}
-        suffix={suffix[kbc.questionCounter]}
-        score={score[kbc.questionCounter]}
-      />
-      {/* {priceCounter.map((price, index) => {
+    <SparkingBackground>
+      <div className="fixed flex flex-col animate-fade-up space-y-10 justify-center items-center top-0 left-0 h-screen w-screen z-50">
+        <h1 className="animate-fade-up animate-once text-5xl font-bold subjective text-yellow-500">
+          Congrulation On
+        </h1>
+        <TrophyCard
+          name={name}
+          count={priceCounter[kbc.questionCounter]}
+          suffix={suffix[kbc.questionCounter]}
+          score={score[kbc.questionCounter]}
+        />
+        {/* {priceCounter.map((price, index) => {
         console.log("Price = >  ", price);
         return (
           <div key={price + index} className="mt-4 cursor-pointer hover:scale-105">
@@ -82,7 +86,8 @@ const PriceTable: FC<{ name: string }> = ({ name }) => {
           </div>
         );
       })} */}
-    </div>
+      </div>
+    </SparkingBackground>
   );
 };
 

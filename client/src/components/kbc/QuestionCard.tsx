@@ -6,6 +6,7 @@ const QuestionCard: FC<{ question: string }> = ({ question }) => {
     <svg
       width="100%"
       height="88"
+      className="animate-fade-up"
       viewBox="0 0 1256 88"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

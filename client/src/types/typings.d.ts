@@ -6,9 +6,9 @@ type Option = {
 type Question = {
   avgTime: number;
   chapter: string;
-  correct: string;
+  correctAnswer: string;
   level: string;
-  options: Option[];
+  options: string[];
   points: string;
   question: string;
   questionImg: string;
@@ -63,11 +63,12 @@ interface pointsProps {
 interface question {
   avgTime: number;
   chapter: string;
-  correct: number;
+  correctAnswer: string;
   level: string;
   options: string[];
-  points: number;
+  points: string;
   question: string;
+  questionImg: string;
 }
 
 interface UserProps {

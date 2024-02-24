@@ -11,20 +11,12 @@ import { onValue, ref, set } from "firebase/database";
 import { db } from "@/firebase/config";
 import Image from "next/image";
 import { Input } from "@/components/ui/input";
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-
+import "@/styles/rain.css";
+import TrophyCard from "@/components/kbc/TrophyCard";
 const serverUrl =
   process.env.NODE_ENV === "production"
     ? "https://next-paint-io.onrender.com"
-    : "http://localhost:3001";
+    : "http://129.150.50.164:3001";
 
 const socket = io(serverUrl);
 
@@ -44,14 +36,25 @@ const Room = ({ params }: ParamsProps) => {
   const [startGame, setStartGame] = useState<boolean>(false);
   const [finishGame, setFinishGame] = useState<boolean>(false);
   const [questions, setQuestions] = useState<Question[] | null>(null);
-  const [bgColors, setBgColors] = useState<string[]>(["#ff996d", "#ffea00", "#bcffdd", "#0aefff"]);
-  const [answerBy, setAnswerBy] = useState<{ index: number; name: string }>({ index: 0, name: "" });
+  const [bgColors, setBgColors] = useState<string[]>([
+    "#ff996d",
+    "#ffea00",
+    "#bcffdd",
+    "#0aefff",
+  ]);
+  const [answerBy, setAnswerBy] = useState<{ index: number; name: string }>({
+    index: 0,
+    name: "",
+  });
   const [timer, setTimer] = useState<number>(30);
   const [points, setPoints] = useState<number>(5);
   const [turn, setTurn] = useState<number>(0);
   const [userIndex, setUserIndex] = useState<number>(0);
   const [chooseQuestion, setChooseQuestion] = useState<boolean>(false);
-  const [counter, setCounter] = useState<number>(questions ? questions.length - 1 : 4);
+  const [counter, setCounter] = useState<number>(
+    questions ? questions.length - 1 : 4
+  );
+  const [disable, setDisabled] = useState(false);
 
   useEffect(() => {
     setUserIndex(membersState.indexOf(user.name));
@@ -66,7 +69,11 @@ const Room = ({ params }: ParamsProps) => {
     });
 
     const isLeader = user.leader === user.name;
-    socket.emit(isLeader ? "quiz-client-ready-leader" : "quiz-client-ready", roomId, user.name);
+    socket.emit(
+      isLeader ? "quiz-client-ready-leader" : "quiz-client-ready",
+      roomId,
+      user.name
+    );
 
     socket.on("get-members", (name: string) => {
       socket.emit("receive-members", roomId, membersRef.current, name);
@@ -78,7 +85,9 @@ const Room = ({ params }: ParamsProps) => {
     });
 
     socket.on("remove-member", (name: string) => {
-      membersRef.current = membersRef.current.filter((member) => member !== name);
+      membersRef.current = membersRef.current.filter(
+        (member) => member !== name
+      );
       setMembersState(membersRef.current);
     });
 
@@ -101,7 +110,6 @@ const Room = ({ params }: ParamsProps) => {
 
   useEffect(() => {
     socket.on("quiz-finishGame", () => {
-      console.log("GAME FINISHED");
       set(ref(db, `quiz/rooms/${roomId}/points/${user.name}`), {
         points,
       });
@@ -121,7 +129,6 @@ const Room = ({ params }: ParamsProps) => {
 
     socket.on("updateQuizState", ({ roomId, index, correct, userName }) => {
       if (!questions) {
-        console.log("NO QUESTIONS");
         return;
       }
 
@@ -139,7 +146,7 @@ const Room = ({ params }: ParamsProps) => {
         bg[1] = "red";
         bg[2] = "red";
         bg[3] = "red";
-        bg[parseInt(questions[counter].correct)] = "green";
+        bg[parseInt(questions[counter].correctAnswer)] = "green";
       }
 
       setBgColors(bg);
@@ -153,34 +160,115 @@ const Room = ({ params }: ParamsProps) => {
         setChooseQuestion(true);
       }, 1000);
     });
+    socket.on("timeout", () => {
+      if (!questions) {
+        return;
+      }
+      setTurn((prev) => (prev === 0 ? 1 : 0));
+
+      setTimeout(() => {
+        setStartGame(false);
+        setChooseQuestion(true);
+        setTimer(30);
+      }, 1000);
+    });
   }, [questions]);
 
   useEffect(() => {
-    console.log("Questions = ", questions);
-  }, [questions]);
+    let intervalId: string | number | NodeJS.Timeout | undefined;
+
+    if (startGame && questions) {
+      setTimer(30);
+      intervalId = setInterval(() => {
+        if (timer !== 0) {
+          setTimer((prev) => (prev > 0 ? prev - 1 : 0));
+        } else {
+          clearInterval(intervalId);
+        }
+      }, 1000);
+    }
+    return () => {
+      clearInterval(intervalId); // Clear the interval when the component unmounts or conditions change
+    };
+  }, [startGame, questions]);
 
   useEffect(() => {
-    console.log("chosenQuestionIndex", chosenQuestionIndex);
-    if (questions && chooseQuestion && chosenQuestionIndex.length === questions.length * 3) {
+    let intervalId: string | number | NodeJS.Timeout | undefined;
+
+    if (timer === 0) {
+      setTurn((prev) => (prev === 0 ? 1 : 0));
+
+      intervalId = setTimeout(() => {
+        setStartGame(false);
+        setChooseQuestion(true);
+        setTimer(30);
+      }, 1000);
+    }
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [timer]);
+  // useEffect(() => {
+  //   console.log("Questions = ", questions);
+  // }, [questions]);
+
+  useEffect(() => {
+    // console.log("chosenQuestionIndex", chosenQuestionIndex);
+    if (
+      questions &&
+      chooseQuestion &&
+      chosenQuestionIndex.length === questions.length * 3
+    ) {
       socket.emit("quiz-finishGame", roomId);
     }
   }, [chosenQuestionIndex, chooseQuestion, questions, points]);
 
+  const [finalPoints, setFinalPoint] = useState<{
+    [id: string]: { points: string };
+  }>({
+    [membersState[0]]: { points: "0" },
+    [membersState[1]]: { points: "0" },
+  });
+
+  useEffect(() => {
+    if (finishGame) {
+      onValue(ref(db, "/quiz/rooms/" + roomId + "/points"), (snapshot) => {
+        const points: { [id: string]: { points: string } } = snapshot.val();
+        setFinalPoint(
+          Object.fromEntries(
+            Object.entries(points).sort(
+              (a, b) => parseInt(b[1].points) - parseInt(a[1].points)
+            )
+          )
+        );
+      });
+    }
+  }, [finishGame]);
+
+  const [sliderWidth, setSliderWidth] = useState(0);
+  useEffect(() => {
+    setSliderWidth((timer / 30) * 100);
+  }, [timer]);
+
+  useEffect(() => {
+    console.log("membersState[0]=> ", finalPoints[membersState[0]].points);
+    console.log("membersState[1] => ", finalPoints[membersState[1]].points);
+  }, [finalPoints]);
+
   /* =================== FILTERING QUESTIONS =================== */
 
   return (
-    <div className="background-2">
+    <div>
       <div>
-        {(chooseQuestion || startGame) && membersState[turn] === user.name ? (
-          <div className="fixed z-50 top-0 left-[50%] right-[50%] flex items-start pt-1 text-white justify-center bg-[#0c2c96bf] w-[120px] h-[60px] rounded-b-full">
-            <h1>Your Turn</h1>
+        {(chooseQuestion || startGame) &&
+        !finishGame &&
+        membersState[turn] === user.name ? (
+          <div className="fixed z-50 top-0 text-center left-0 flex items-center  text-white justify-center bg-blue-500 w-[100px] h-[35px] rounded-r-full">
+            <h1 className="text-sm">Your Turn</h1>
           </div>
         ) : (
-          <div className="fixed z-50 top-0 text-center left-[50%] right-[50%] flex items-start pt-1 text-white justify-center bg-red-500 w-[200px] h-[70px] rounded-b-full">
-            <h1>
-              {user.name}
-              <br /> Turn's
-            </h1>
+          <div className="fixed z-50 top-0 text-center left-0 flex items-center  text-white justify-center bg-red-500 w-[100px] h-[35px] rounded-r-full">
+            <h1 className="text-sm">Other's Turn</h1>
           </div>
         )}
       </div>
@@ -188,22 +276,22 @@ const Room = ({ params }: ParamsProps) => {
         <h1>LOADING</h1>
       ) : (
         <>
-          {finishGame && (
-            <div className="fixed top-0 left-0 w-screen h-screen bg-white">
-              <h1>GAME FINISHED</h1>
-            </div>
-          )}
           {questions && chooseQuestion && (
-            <div className="fixed top-0 left-0 z-20 w-screen h-screen bg-white">
+            <div className="animate-fade-up animate-once fixed top-0 left-0 z-20 w-screen h-screen ">
               <div className="flex flex-col gap-20 w-full h-full justify-center items-center">
-                <h1>CHOOSE QUESTION NUMBER</h1>
-                <div className="w-[50%] flex flex-wrap gap-x-5 gap-y-5 mx-auto">
+                <h1 className="text-white">CHOOSE QUESTION NUMBER</h1>
+                <div className="w-[50%] items-center justify-center flex flex-wrap gap-x-5 gap-y-5 mx-auto text-white">
                   {questions.map((question, index) => (
                     <button
                       key={index + 1}
-                      disabled={userIndex !== turn || chosenQuestionIndex.includes(index)}
-                      onClick={() => socket.emit("updateQuizCounter", { roomId, index })}
-                      className="border rounded-full disabled:bg-gray-200 flex justify-center items-center hover:bg-gray-200 cursor-pointer w-[50px] h-[50px]"
+                      disabled={
+                        userIndex !== turn ||
+                        chosenQuestionIndex.includes(index)
+                      }
+                      onClick={() =>
+                        socket.emit("updateQuizCounter", { roomId, index })
+                      }
+                      className="hover:text-black animate-wiggle animate-infinite border rounded-full disabled:bg-gray-200 flex justify-center items-center hover:bg-gray-200 cursor-pointer w-[50px] h-[50px] text-white border-white"
                     >
                       {index}
                     </button>
@@ -212,13 +300,22 @@ const Room = ({ params }: ParamsProps) => {
               </div>
             </div>
           )}
-          {startGame && questions && (
+          {startGame && questions ? (
             <div className="flex justify-center items-center flex-col h-screen">
-              <div className="fixed top-5 left-[50%] right-[50%]">{timer}</div>
+              <div className="fixed top-0 left-0 bg-black z-50 w-screen h-1">
+                <div
+                  className="bg-white h-1 animate-pulse animate-infinite"
+                  style={{ width: `${sliderWidth}%` }}
+                ></div>
+              </div>
+              <div className="animate-ping animate-infinite animate-duration-1000  animate-delay-1000 animate-ease-linear animate-normal fixed top-7 right-7  bg-white w-[30px] h-[30px] rounded-full flex items-center justify-center">
+                {timer}
+              </div>
               <h2
-                className="text-3xl text-white tracking-wide"
+                className="animate-fade-up animate-once text-3xl text-white tracking-wide animate-in"
                 style={{
-                  textShadow: "1px 1px 30px #000, -1px 1px 10px #000, 1px 1px 10px #000",
+                  textShadow:
+                    "1px 1px 30px #000, -1px 1px 10px #000, 1px 1px 10px #000",
                 }}
               >
                 {questions[counter].question}
@@ -229,52 +326,111 @@ const Room = ({ params }: ParamsProps) => {
                     disabled={userIndex !== turn}
                     key={index}
                     onClick={() => {
-                      if (index === parseInt(questions[counter].correct)) {
-                        setPoints((prev) => prev + 5);
+                      if (
+                        index === parseInt(questions[counter].correctAnswer)
+                      ) {
+                        setPoints((prev) => {
+                          set(
+                            ref(
+                              db,
+                              "quiz/rooms/" + roomId + "/points/" + user.name
+                            ),
+                            {
+                              points: prev + 100,
+                            }
+                          );
+                          return prev + 100;
+                        });
                       }
                       socket.emit("updateQuizState", {
                         roomId,
                         index,
                         userName: user.name,
-                        correct: index === parseInt(questions[counter].correct),
+                        correct:
+                          index === parseInt(questions[counter].correctAnswer),
                       });
                     }}
-                    className="disabled:bg-gray-100 text-black w-[300px] h-[60px] text-lg font-bold relative"
+                    className="animate-fade-up disabled:bg-gray-100 text-black w-[300px] h-[60px] text-lg font-bold relative"
                     style={{ background: bgColors[index] }}
                   >
-                    {opt.label}
+                    {opt}
                     {answerBy.name !== "" && answerBy.index === index && (
-                      <p className="absolute right-2 bottom-2 text-sm z-10">{answerBy.name}</p>
+                      <p className="absolute right-2 bottom-2 text-sm z-10">
+                        {answerBy.name}
+                      </p>
                     )}
                   </button>
                 ))}
               </div>
             </div>
+          ) : (
+            finishGame && (
+              <div className="fixed z-50 top-0 left-0 w-screen h-screen bg-black/50 bg-blend-overlay">
+                <div className="confetti">
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                  <div className="confetti-piece"></div>
+                </div>
+                <div className="space-y-20 text-center mt-20 z-50">
+                  <h1 className="text-white text-4xl font-bold">
+                    {Object.entries(finalPoints)[0][0] === user.name
+                      ? "You Win !"
+                      : "You Loose !"}
+                  </h1>
+                  <div className="flex items-center justify-center flex-col gap-y-5">
+                    {finalPoints &&
+                      Object.keys(finalPoints).map((name, index) => {
+                        return (
+                          <TrophyCard
+                            key={name}
+                            type="quiz"
+                            name={name}
+                            count={(index + 1).toString()}
+                            suffix={index === 0 ? "st" : "nd"}
+                            score={(finalPoints[name].points + 10).toString()}
+                          />
+                        );
+                      })}
+                  </div>
+                </div>
+              </div>
+            )
           )}
-          {!startGame && (
-            <main className="flex justify-start items-center flex-col">
-              {/*   Title    */}
+          {!startGame && !finishGame && !chooseQuestion && (
+            <main className="flex justify-start items-center flex-col gap-y-5">
               <Image
                 src="/picture/quiz-logo.png"
-                className="h-[200px] lg:w-auto"
-                alt="RAPIDFIRE LOGO"
-                width={499}
-                height={499}
+                width={200}
+                height={200}
+                alt="user avatar"
               />
-              <h1 className="p-2 mx-auto fixed bottom-10 pb-0 text-2xl font-bold text-center text-white bg-black rounded-md md:text-4xl w-max">
-                Room ID : {roomId}
-              </h1>
-              <div className="bg-[#0c2c96bf] my-10 w-[90%] lg:w-auto items-center justify-center p-5 rounded-lg">
-                <RoomMembers members={membersState} />
-              </div>
-
-              <button
-                className="block w-auto pb-0 p-2 mx-auto text-2xl font-semibold text-center text-white transition-all rounded-md bg-emerald-500 md:text-3xl btn-shadow hover:scale-105 active:scale-90"
+              <RoomMembers members={membersState} />
+              <Button
+                className="w-full animate-pulse"
                 onClick={() => socket.emit("startQuiz", roomId)}
                 disabled={user.leader !== user.name}
               >
                 Start Game
-              </button>
+              </Button>{" "}
+              <h1 className="py-2 w-full text-center text-xl bg-white/80 rounded-lg ">
+                Room ID : {roomId}
+              </h1>
             </main>
           )}
         </>

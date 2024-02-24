@@ -7,7 +7,7 @@ import React, { useState } from "react";
 const Landing = () => {
   const [userName, setUserName] = useState("");
   return (
-    <div className="flex flex-col justify-center items-center w-full h-screen">
+    <div className="flex flex-col justify-center items-center w-full h-screen subjective">
       <div className="space-y-5 w-[300px]">
         <Input
           onChange={(e) => setUserName(e.target.value)}
@@ -17,8 +17,7 @@ const Landing = () => {
         <Link
           href={"/quizzy/kbc/" + userName}
           className={buttonVariants({
-            variant: "secondary",
-            className: "w-full",
+            className: "w-full bg-green-500 animate-fade animate-infinite",
           })}
         >
           Start Game

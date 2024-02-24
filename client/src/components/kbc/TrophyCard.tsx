@@ -10,7 +10,7 @@ const TrophyCard: FC<{
 }> = ({ name, count, suffix, type, score }) => {
   return (
     <div className="cards">
-      <div className="outlinePage">
+      <div className="outlinePage animate-fade">
         {type === "quiz" ? (
           <svg
             className="icon trophy"
@@ -142,7 +142,7 @@ const TrophyCard: FC<{
             ></path>
           </svg>
         )}
-        <p className="ranking_number">
+        <p className="ranking_number text-left">
           {count}
           <span className="ranking_word">
             {suffix} {type !== "quiz" && "chocolate"}
@@ -162,7 +162,7 @@ const TrophyCard: FC<{
             fill="#8a8a8a"
           ></path>
         </svg>
-        <p className="userName">{name}</p>
+        <p className="userName text-left">{name}</p>
       </div>
       <div className="detailPage">
         <svg
@@ -173,13 +173,34 @@ const TrophyCard: FC<{
           width="80"
           height="80"
         >
-          <path d="M896 42.666667h-128l-170.666667 213.333333h128z" fill="#FF4C4C"></path>
-          <path d="M768 42.666667h-128l-170.666667 213.333333h128z" fill="#3B8CFF"></path>
-          <path d="M640 42.666667h-128L341.333333 256h128z" fill="#F1F1F1"></path>
-          <path d="M128 42.666667h128l170.666667 213.333333H298.666667z" fill="#FF4C4C"></path>
-          <path d="M256 42.666667h128l170.666667 213.333333h-128z" fill="#3B8CFF"></path>
-          <path d="M384 42.666667h128l170.666667 213.333333h-128z" fill="#FBFBFB"></path>
-          <path d="M298.666667 256h426.666666v213.333333H298.666667z" fill="#E3A815"></path>
+          <path
+            d="M896 42.666667h-128l-170.666667 213.333333h128z"
+            fill="#FF4C4C"
+          ></path>
+          <path
+            d="M768 42.666667h-128l-170.666667 213.333333h128z"
+            fill="#3B8CFF"
+          ></path>
+          <path
+            d="M640 42.666667h-128L341.333333 256h128z"
+            fill="#F1F1F1"
+          ></path>
+          <path
+            d="M128 42.666667h128l170.666667 213.333333H298.666667z"
+            fill="#FF4C4C"
+          ></path>
+          <path
+            d="M256 42.666667h128l170.666667 213.333333h-128z"
+            fill="#3B8CFF"
+          ></path>
+          <path
+            d="M384 42.666667h128l170.666667 213.333333h-128z"
+            fill="#FBFBFB"
+          ></path>
+          <path
+            d="M298.666667 256h426.666666v213.333333H298.666667z"
+            fill="#E3A815"
+          ></path>
           <path
             d="M512 661.333333m-320 0a320 320 0 1 0 640 0 320 320 0 1 0-640 0Z"
             fill="#FDDC3A"

@@ -16,7 +16,7 @@ import TrophyCard from "@/components/kbc/TrophyCard";
 const serverUrl =
   process.env.NODE_ENV === "production"
     ? "https://next-paint-io.onrender.com"
-    : "http://localhost:3001";
+    : "http://129.150.50.164:3001";
 
 const socket = io(serverUrl);
 
@@ -35,25 +35,38 @@ const Room = ({ params }: ParamsProps) => {
   const [startGame, setStartGame] = useState<boolean>(false);
   const [finishGame, setFinishGame] = useState<boolean>(false);
   const [questions, setQuestions] = useState<question[] | null>(null);
-  const [bgColors, setBgColors] = useState<string[]>(["#ff996d", "#ffea00", "#bcffdd", "#0aefff"]);
-  const [answerBy, setAnswerBy] = useState<{ index: number; name: string }>({ index: 0, name: "" });
+  const [bgColors, setBgColors] = useState<string[]>([
+    "#ff996d",
+    "#ffea00",
+    "#bcffdd",
+    "#0aefff",
+  ]);
+  const [answerBy, setAnswerBy] = useState<{ index: number; name: string }>({
+    index: 0,
+    name: "",
+  });
   const [timer, setTimer] = useState<number>(30);
-  const [whoIsFirts, setWhoIsFirst] = useState<number>(0);
   const [points, setPoints] = useState<number>(10);
-  const [finalPoints, setFinalPoints] = useState<pointsProps>({});
-
+  const [finalPoints, setFinalPoints] = useState<{
+    [id: string]: { points: string };
+  }>({
+    [membersState[0]]: { points: "0" },
+    [membersState[1]]: { points: "0" },
+  });
   useEffect(() => {
     if (finishGame) {
-      onValue(ref(db, "rapidfire/rooms/" + roomId + "/points"), (snapshot) => {
+      onValue(ref(db, "/rapidfire/rooms/" + roomId + "/points"), (snapshot) => {
+        const points: { [id: string]: { points: string } } = snapshot.val();
         setFinalPoints(
           Object.fromEntries(
-            Object.entries(snapshot.val()).sort((a, b) => b[1].points - a[1].points)
+            Object.entries(points).sort(
+              (a, b) => parseInt(b[1].points) - parseInt(a[1].points)
+            )
           )
         );
       });
     }
   }, [finishGame]);
-
   // useEffect(() => {
   //   let point = 0;
   //   Object.keys(finalPoints).forEach((name) => {
@@ -68,7 +81,7 @@ const Room = ({ params }: ParamsProps) => {
   useEffect(() => {
     socket.emit("join-room", { roomId });
 
-    const questionRef = ref(db, "questions");
+    const questionRef = ref(db, "rapidfire/rooms/" + roomId + "/questions");
 
     onValue(questionRef, (snapshot) => {
       setQuestions(snapshot.val());
@@ -90,7 +103,9 @@ const Room = ({ params }: ParamsProps) => {
     });
 
     socket.on("remove-member", (name: string) => {
-      membersRef.current = membersRef.current.filter((member) => member !== name);
+      membersRef.current = membersRef.current.filter(
+        (member) => member !== name
+      );
       setMembersState(membersRef.current);
     });
 
@@ -120,7 +135,7 @@ const Room = ({ params }: ParamsProps) => {
     });
   }, []);
 
-  const [counter, setCounter] = useState<number>(questions ? questions.length - 1 : 4);
+  const [counter, setCounter] = useState<number>(0);
 
   useEffect(() => {
     socket.on("updateCounter", ({ roomId, index, userName, correct }) => {
@@ -146,38 +161,61 @@ const Room = ({ params }: ParamsProps) => {
         bg[1] = "red";
         bg[2] = "red";
         bg[3] = "red";
-        bg[questions[counter].correct] = "green";
+        bg[parseInt(questions[counter].correctAnswer)] = "green";
         setBgColors(bg);
       }
 
-      setTimeout(
-        () =>
-          setCounter((prev) => {
-            if (prev - 1 < 0) {
-              socket.emit("finishgame", roomId);
-              return 0;
-            } else {
-              return prev - 1;
-            }
-          }),
-        1000
-      );
+      setTimeout(() => {
+        setCounter((prev) => {
+          if (prev + 1 === questions.length) {
+            socket.emit("finishgame", roomId);
+            return 0;
+          } else {
+            return prev + 1;
+          }
+        });
+      }, 1000);
 
       setTimeout(() => {
         setBgColors(["#ff996d", "#ffea00", "#bcffdd", "#0aefff"]);
         setAnswerBy({ index: 0, name: "" });
+        setTimer(30);
       }, 1000);
     });
   }, [questions]);
 
   useEffect(() => {
-    setInterval(() => {
-      if (timer > 0) {
-        setTimer((prev) => prev - 1);
-      }
-    }, 1000);
-  }, []);
+    let intervalId: string | number | NodeJS.Timeout | undefined;
 
+    if (startGame && questions) {
+      setTimer(30);
+      intervalId = setInterval(() => {
+        if (timer !== 0) {
+          setTimer((prev) => (prev > 0 ? prev - 1 : 0));
+        } else {
+          clearInterval(intervalId);
+        }
+      }, 1000);
+    }
+    return () => {
+      clearInterval(intervalId); // Clear the interval when the component unmounts or conditions change
+    };
+  }, [startGame, questions]);
+
+  useEffect(() => {
+    if (timer === 0 && questions) {
+      socket.emit("updateCounter", {
+        roomId,
+        index: parseInt(questions[counter].correctAnswer),
+        userName: "",
+        correct: true,
+      });
+    }
+  }, [timer, questions]);
+  useEffect(() => {
+    console.log("membersState[0]=> ", finalPoints[membersState[0]].points);
+    console.log("membersState[1] => ", finalPoints[membersState[1]].points);
+  }, [finalPoints]);
   // useEffect(() => {
   //   if (timer <= 0) {
   //     setTimeout(() => {
@@ -195,63 +233,82 @@ const Room = ({ params }: ParamsProps) => {
   useEffect(() => {
     console.log("counter", counter);
   }, [counter]);
+  const [sliderWidth, setSliderWidth] = useState(0);
+  useEffect(() => {
+    setSliderWidth((timer / 30) * 100);
+  }, [timer]);
 
   return (
-    <div className="background-2">
+    <div>
       {membersState.length === 0 ? (
         <h1>LOADING</h1>
       ) : (
         <>
           {finishGame && (
-            <div className="fixed top-0 left-0 min-h-screen background-2 z-20">
-              <div className="fixed flex flex-col space-y-10 justify-center items-center top-0  left-0 h-screen w-screen z-50">
-                <div className="confetti">
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
-                  <div className="confetti-piece"></div>
+            <div className="fixed z-50 top-0 left-0 w-screen h-screen bg-black/50 bg-blend-overlay">
+              <div className="confetti">
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+                <div className="confetti-piece"></div>
+              </div>
+              <div className="space-y-20 text-center mt-20 z-50">
+                <h1 className="text-white text-4xl font-bold">
+                  {Object.entries(finalPoints)[0][0] === user.name
+                    ? "You Win !"
+                    : "You Loose !"}
+                </h1>
+                <div className="flex items-center justify-center flex-col gap-y-5">
+                  {finalPoints &&
+                    Object.keys(finalPoints).map((name, index) => {
+                      return (
+                        <TrophyCard
+                          key={name}
+                          type="quiz"
+                          name={name}
+                          count={(index + 1).toString()}
+                          suffix={index === 0 ? "st" : "nd"}
+                          score={(finalPoints[name].points + 10).toString()}
+                        />
+                      );
+                    })}
                 </div>
-                <h1 className="text-5xl font-bold subjective text-yellow-500">Congrulation On</h1>
-                {finalPoints &&
-                  Object.keys(finalPoints).map((name, index) => {
-                    return (
-                      <TrophyCard
-                        key={name}
-                        type="quiz"
-                        name={name}
-                        count={(index + 1).toString()}
-                        suffix={index === 0 ? "st" : "nd"}
-                        score={(finalPoints[name].points + 10).toString()}
-                      />
-                    );
-                  })}
               </div>
             </div>
           )}
-          {startGame ? (
+          {!finishGame && startGame ? (
             <>
               {questions && (
                 <div className="flex justify-center items-center flex-col h-screen">
-                  <div className="fixed top-5 left-[50%] right-[50%]">{timer}</div>
+                  <div className="fixed top-0 left-0 bg-black z-50 w-screen h-1">
+                    <div
+                      className="bg-white h-1 animate-pulse animate-infinite"
+                      style={{ width: `${sliderWidth}%` }}
+                    ></div>
+                  </div>
+                  <div className="animate-ping animate-infinite animate-duration-1000  animate-delay-1000 animate-ease-linear animate-normal fixed top-7 right-7  bg-white w-[30px] h-[30px] rounded-full flex items-center justify-center">
+                    {timer}
+                  </div>
                   <h2
-                    className="text-3xl text-white tracking-wide"
+                    className="animate-fade-up animate-once text-3xl text-white tracking-wide animate-in"
                     style={{
-                      textShadow: "1px 1px 30px #000, -1px 1px 10px #000, 1px 1px 10px #000",
+                      textShadow:
+                        "1px 1px 30px #000, -1px 1px 10px #000, 1px 1px 10px #000",
                     }}
                   >
                     {questions[counter].question}
@@ -261,34 +318,58 @@ const Room = ({ params }: ParamsProps) => {
                       <button
                         key={opt}
                         onClick={() => {
-                          if (index === questions[counter].correct) {
+                          if (
+                            index === parseInt(questions[counter].correctAnswer)
+                          ) {
                             setPoints((prev) => {
-                              set(ref(db, "rapidfire/rooms/" + roomId + "/points/" + user.name), {
-                                points: prev + 10,
-                              });
-                              return prev + 10;
+                              set(
+                                ref(
+                                  db,
+                                  "rapidfire/rooms/" +
+                                    roomId +
+                                    "/points/" +
+                                    user.name
+                                ),
+                                {
+                                  points: prev + 100,
+                                }
+                              );
+                              return prev + 100;
                             });
                           } else {
                             setPoints((prev) => {
-                              set(ref(db, "rapidfire/rooms/" + roomId + "/points/" + user.name), {
-                                points: prev - 10 < 0 ? prev : prev - 10,
-                              });
-                              return prev - 10 < 0 ? prev : prev - 10;
+                              set(
+                                ref(
+                                  db,
+                                  "rapidfire/rooms/" +
+                                    roomId +
+                                    "/points/" +
+                                    user.name
+                                ),
+                                {
+                                  points: prev - 50 < 0 ? prev : prev - 50,
+                                }
+                              );
+                              return prev - 50 < 0 ? prev : prev - 50;
                             });
                           }
                           socket.emit("updateCounter", {
                             roomId: roomId,
                             index: index,
                             userName: user.name,
-                            correct: index === questions[counter].correct,
+                            correct:
+                              index ===
+                              parseInt(questions[counter].correctAnswer),
                           });
                         }}
-                        className="text-black w-[300px] h-[60px] text-lg font-bold relative"
+                        className="animate-fade-up disabled:bg-gray-100 text-black w-[300px] h-[60px] text-lg font-bold relative"
                         style={{ background: bgColors[index] }}
                       >
                         {opt}
                         {answerBy.name !== "" && answerBy.index === index && (
-                          <p className="absolute right-2 bottom-2 text-sm z-10">{answerBy.name}</p>
+                          <p className="absolute right-2 bottom-2 text-sm z-10">
+                            {answerBy.name}
+                          </p>
                         )}
                       </button>
                     ))}
@@ -297,30 +378,34 @@ const Room = ({ params }: ParamsProps) => {
               )}{" "}
             </>
           ) : (
-            <main className="flex justify-start items-center flex-col">
-              {/*   Title    */}
-              <Image
-                src="/picture/rapidfire_transparent.png"
-                className="w-[200px] lg:w-auto"
-                alt="RAPIDFIRE LOGO"
-                width={582}
-                height={332}
-              />
+            !finishGame && (
+              <main className="flex justify-start items-center flex-col">
+                {/*   Title    */}
+                <Image
+                  src="/picture/rapidfire_transparent.png"
+                  className="w-[200px] lg:w-auto"
+                  alt="RAPIDFIRE LOGO"
+                  width={582}
+                  height={332}
+                />
 
-              <RoomMembers members={membersState} />
+                <RoomMembers members={membersState} />
 
-              <h1 className="p-2 fixed bottom-10 pb-0 text-2xl font-bold text-center text-white bg-black rounded-md md:text-4xl w-max">
-                Room ID : {roomId}
-              </h1>
+                <h1 className="p-2 fixed bottom-10 pb-0 text-2xl font-bold text-center text-white bg-black rounded-md md:text-4xl w-max">
+                  Room ID : {roomId}
+                </h1>
 
-              <button
-                onClick={() => socket.emit("startgame", roomId)}
-                disabled={user.leader !== user.name || membersState.length === 1}
-                className="mt-5 block w-auto p-2 pb-0 mx-auto text-2xl font-semibold text-center text-white transition-all rounded-md bg-emerald-500 md:text-3xl btn-shadow hover:scale-105 active:scale-90"
-              >
-                START GAME
-              </button>
-            </main>
+                <button
+                  onClick={() => socket.emit("startgame", roomId)}
+                  disabled={
+                    user.leader !== user.name || membersState.length === 1
+                  }
+                  className="mt-5 block w-auto p-2 pb-0 mx-auto text-2xl font-semibold text-center text-white transition-all rounded-md bg-emerald-500 md:text-3xl btn-shadow hover:scale-105 active:scale-90"
+                >
+                  START GAME
+                </button>
+              </main>
+            )
           )}
         </>
       )}

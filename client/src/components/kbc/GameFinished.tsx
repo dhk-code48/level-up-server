@@ -32,7 +32,9 @@ const GameFinished: FC<{ name: string }> = ({ name }) => {
         <div className="confetti-piece"></div>
         <div className="confetti-piece"></div>
       </div>
-      <h1 className="text-5xl font-bold subjective text-yellow-500">Congrulation On</h1>
+      <h1 className="text-5xl font-bold subjective text-yellow-500">
+        Game Finished
+      </h1>
       <TrophyCard
         name={name}
         count={priceCounter[kbc.questionCounter]}

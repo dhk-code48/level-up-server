@@ -48,14 +48,12 @@
   width: 200px;
   height: 10px;
   top: 100px;
-  background-image: linear-gradient(
-    to right,
-    transparent 10%,
-    #ffe8a0 20%,
-    #f7b733 50%,
-    #ffe8a0 70%,
-    transparent 90%
-  );
+  background-image: linear-gradient(to right,
+      transparent 10%,
+      #ffe8a0 20%,
+      #f7b733 50%,
+      #ffe8a0 70%,
+      transparent 90%);
   z-index: 1;
 }
 

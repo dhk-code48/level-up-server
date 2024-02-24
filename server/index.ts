@@ -41,9 +41,12 @@ io.on("connection", (socket) => {
     io.to(roomId).emit("get-members", name);
   });
 
-  socket.on("receive-members", (roomId: string, members: string[], name: string) => {
-    io.to(roomId).emit("update-members", members, name);
-  });
+  socket.on(
+    "receive-members",
+    (roomId: string, members: string[], name: string) => {
+      io.to(roomId).emit("update-members", members, name);
+    }
+  );
 
   socket.on("startgame", (roomId: string) => {
     io.to(roomId).emit("startgame");
@@ -102,6 +105,9 @@ io.on("connection", (socket) => {
 
   socket.on("updateQuizState", ({ roomId, index, correct, userName }) => {
     io.to(roomId).emit("updateQuizState", { roomId, index, correct, userName });
+  });
+  socket.on("timeOut", ({ roomId }) => {
+    io.to(roomId).emit("timeOut", { roomId });
   });
 });
 
